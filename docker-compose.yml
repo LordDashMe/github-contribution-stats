@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  app:
+    tty: true
+    stdin_open: true
+    image: 'node:10-alpine'
+    volumes:
+      - '${DOCKER_HOST_SOURCE_PATH}:/var/www/site/'
+networks:
+  default:
+    external:
+      name: '${DOCKER_HOST_PRE_DEFINED_NETWORK}'
