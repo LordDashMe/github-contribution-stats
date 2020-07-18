@@ -6,7 +6,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
 ## Demo
 
-- See the sample usage with some of the famous open source contributor :tada: :trophy:.
+- See the sample usage with some of our famous open source contributor :tada: :trophy:.
 
   - [Miško Hevery](https://github.com/mhevery)
 
