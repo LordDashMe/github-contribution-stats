@@ -24,42 +24,48 @@ const ContributionRatings = {
       max: 100,
       min: 95,
       letterSign: 'S',
-      color: '#b30000'
+      color: '#b30000',
+      progress: '5'
     },
     {
       id: 'A_PLUS_SCORE',
       max: 94.99,
       min: 90,
       letterSign: 'A+',
-      color: '#7d00b3'
+      color: '#7d00b3',
+      progress: '30'
     },
     {
       id: 'A_SCORE',
       max: 89.99,
       min: 80,
       letterSign: 'A',
-      color: '#1eb300'
+      color: '#1eb300',
+      progress: '60'
     },
     {
       id: 'B_PLUS_SCORE',
       max: 79.99,
       min: 75,
       letterSign: 'B+',
-      color: '#2fa0ed'
+      color: '#2fa0ed',
+      progress: '100'
     },
     {
       id: 'B_SCORE',
       max: 74.99,
       min: 65,
       letterSign: 'B',
-      color: '#2f74ed'
+      color: '#2f74ed',
+      progress: '130'
     },
     {
       id: 'C_SCORE',
       max: 64.99,
       min: 0,
       letterSign: 'C',
-      color: '#ed962f'
+      color: '#ed962f',
+      progress: '170'
     }
   ],
   metrics: {
@@ -175,6 +181,15 @@ const ContributionRatings = {
    */
   getColor: () => {
     return ContributionRatings.ratings.color;
+  },
+
+  /**
+   * The getter method for the property ratings progress.
+   * 
+   * @return {String}
+   */
+  getProgress: () => {
+    return ContributionRatings.ratings.progress;
   }
 };
 

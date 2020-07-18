@@ -18,13 +18,14 @@ const { shortNumberDenomination } = require('./Helper');
  * 
  * @param {String} ratingsLetterSign The ratings letter sign counter part.
  * @param {String} ratingsColor      The ratings color counter part.
+ * @param {String} ratingsProgress   The ratings progress counter part.
  * @param {Number} thisYearCommits   The total this year commits.
  * @param {Number} thisMonthCommits  The total this month commits.
  * @param {Number} thisWeekCommits   The total this week commits.
  * 
  * @return {String}
  */
-const CardTemplates = (ratingsLetterSign, ratingsColor, thisYearCommits, thisMonthCommits, thisWeekCommits) => {
+const CardTemplates = (ratingsLetterSign, ratingsColor, ratingsProgress, thisYearCommits, thisMonthCommits, thisWeekCommits) => {
 
   const dependenciesTemplate = `
     <defs>
@@ -284,7 +285,7 @@ const CardTemplates = (ratingsLetterSign, ratingsColor, thisYearCommits, thisMon
           stroke-dashoffset: 250;
         }
         to {
-          stroke-dashoffset: 150;
+          stroke-dashoffset: ${ratingsProgress};
         }
       }
 

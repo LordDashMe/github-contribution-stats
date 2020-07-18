@@ -3,6 +3,7 @@ const { CardTemplates } = require('../../src/CardTemplates');
 const stats = {
   ratingsLetterSign: 'A+',
   ratingsColor: '#7d00b3',
+  ratingsProgress: '30',
   thisYearCommits: 1415,
   thisMonthCommits: 500,
   thisWeekCommits: 5
@@ -14,6 +15,7 @@ describe('Tests for Card Templates.', () => {
     document.body.innerHTML = CardTemplates(
       stats.ratingsLetterSign,
       stats.ratingsColor,
+      stats.ratingsProgress,
       stats.thisYearCommits,
       stats.thisMonthCommits,
       stats.thisWeekCommits

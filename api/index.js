@@ -26,6 +26,9 @@ module.exports = async (request, response) => {
     console.log('stats', ContributionRatings.getLetterSign());
 
     response.send(CardTemplates(
-        ContributionRatings.getLetterSign(), ContributionRatings.getColor(), thisYear, thisMonth, thisWeek
+        ContributionRatings.getLetterSign(), 
+        ContributionRatings.getColor(), 
+        ContributionRatings.getProgress(),
+        thisYear, thisMonth, thisWeek
     ));
 };
