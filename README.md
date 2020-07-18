@@ -6,6 +6,8 @@ Get your dynamically generated Github Contribution Stats!
 
 ## Demo
 
+- See the sample usage with some of the famous open source contributor.
+
 - [Miško Hevery](https://github.com/mhevery)
 
   [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery)](https://github.com/LordDashMe/github-contribution-stats/)
@@ -24,7 +26,7 @@ Get your dynamically generated Github Contribution Stats!
 
 ## Usage
 
-- To use, just copy paste this into your markdown content and replace the value of the ```?username=``` URL parameter.
+- To use, just copy paste this into your markdown content and replace the value of the ```?username=``` URL parameter based on your **github username**.
 
 ```text
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
