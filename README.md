@@ -4,7 +4,7 @@ Get your dynamically generated Github Contribution Stats!
 
 ## Sample
 
-[LordDashMe](https://github-contribution-stats.vercel.app/api/?username=lorddashme)
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
 
 ## Usage
 
