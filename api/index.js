@@ -1,14 +1,23 @@
+/*
+ * This file is part of the Github Contributioin Stats.
+ *
+ * (c) Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 const { FetchStats } = require('../src/FetchStats');
 const { ContributionRatings } = require('../src/ContributionRatings');
 const { ComputeCommits } = require('../src/ComputeCommits');
 const { CardTemplates } = require('../src/CardTemplates');
 
-module.exports = async (request, response) => {
+module.exports = async (req, res) => {
 
-    const { username } = request.query;
+    const { username } = req.query;
     
-    response.setHeader('Cache-Control', 'public, max-age=120');
-    response.setHeader('Content-Type', 'image/svg+xml');
+    res.setHeader('Cache-Control', 'public, max-age=1800');
+    res.setHeader('Content-Type', 'image/svg+xml');
 
     const stats = await FetchStats(username);
     
@@ -25,10 +34,12 @@ module.exports = async (request, response) => {
 
     console.log('stats', ContributionRatings.getLetterSign());
 
-    response.send(CardTemplates(
+    res.send(CardTemplates(
         ContributionRatings.getLetterSign(), 
         ContributionRatings.getColor(), 
         ContributionRatings.getProgress(),
-        thisYear, thisMonth, thisWeek
+        thisYear, 
+        thisMonth, 
+        thisWeek
     ));
 };
