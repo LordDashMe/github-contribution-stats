@@ -1,12 +1,12 @@
 # Github Contribution Stats
 
-Get your dynamically generated Github Contribution Stats!
+Get your dynamically generated Github Contribution Stats! :chart_with_upwards_trend: :calendar:
 
 [![Build Status](https://img.shields.io/travis/LordDashMe/github-contribution-stats/master.svg?style=flat-square)](https://travis-ci.org/LordDashMe/github-contribution-stats) [![Coverage Status](https://img.shields.io/coveralls/LordDashMe/github-contribution-stats/master.svg?style=flat-square)](https://coveralls.io/github/LordDashMe/github-contribution-stats?branch=master)
 
 ## Demo
 
-- See the sample usage with some of the famous open source contributor.
+- See the sample usage with some of the famous open source contributor :tada: :trophy:.
 
   - [Miško Hevery](https://github.com/mhevery)
 
@@ -34,7 +34,7 @@ Get your dynamically generated Github Contribution Stats!
 
 ## Layout Customization
 
-- This features will be release soon. We will unlock the layout customization depending on what you like.
+- This features will be release soon. We will unlock the layout customization depending on what you like :heart:.
 
 ## License
 
