@@ -1,0 +1,19 @@
+{
+  "name": "github-contribution-stats",
+  "version": "1.0.0",
+  "description": "Dynamically generated Github Contribution Stats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://LordDashMe@github.com/LordDashMe/github-contribution-stats.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LordDashMe/github-contribution-stats/issues"
+  },
+  "homepage": "https://github.com/LordDashMe/github-contribution-stats#readme"
+}
