@@ -4,17 +4,21 @@ Get your dynamically generated Github Contribution Stats!
 
 [![Build Status](https://img.shields.io/travis/LordDashMe/github-contribution-stats/master.svg?style=flat-square)](https://travis-ci.org/LordDashMe/github-contribution-stats) [![Coverage Status](https://img.shields.io/coveralls/LordDashMe/github-contribution-stats/master.svg?style=flat-square)](https://coveralls.io/github/LordDashMe/github-contribution-stats?branch=master)
 
-## Sample
+## Demo
 
-- Taylor Otwell.
-
-  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
-
-- Miško Hevery.
+- [Miško Hevery](https://github.com/mhevery)
 
   [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery)](https://github.com/LordDashMe/github-contribution-stats/)
 
-- Me.
+- [Taylor Otwell](https://github.com/taylorotwell)
+
+  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
+
+- [Andrew Nesbitt](https://github.com/andrew)
+
+  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=andrew)](https://github.com/LordDashMe/github-contribution-stats/)
+
+- Me :joy:
 
   [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
 
@@ -28,7 +32,7 @@ Get your dynamically generated Github Contribution Stats!
 
 ## Layout Customization
 
-- @TODO: Currently on going development, we will unlock the layout depending on what we like.
+- This features will be release soon. We will unlock the layout customization depending on what you like.
 
 ## License
 
