@@ -8,21 +8,21 @@ Get your dynamically generated Github Contribution Stats!
 
 - See the sample usage with some of the famous open source contributor.
 
-- [Miško Hevery](https://github.com/mhevery)
+  - [Miško Hevery](https://github.com/mhevery)
 
-  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery)](https://github.com/LordDashMe/github-contribution-stats/)
 
-- [Taylor Otwell](https://github.com/taylorotwell)
+  - [Taylor Otwell](https://github.com/taylorotwell)
 
-  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
 
-- [Andrew Nesbitt](https://github.com/andrew)
+  - [Andrew Nesbitt](https://github.com/andrew)
 
-  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=andrew)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=andrew)](https://github.com/LordDashMe/github-contribution-stats/)
 
-- Me :joy:
+  - Me :joy:
 
-  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
 
 ## Usage
 
