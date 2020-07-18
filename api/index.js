@@ -23,6 +23,8 @@ module.exports = async (request, response) => {
     ContributionRatings.setThisWeekCommits(thisWeek);
     ContributionRatings.calculate();
 
+    console.log('stats', ContributionRatings.getLetterSign());
+
     response.send(CardTemplates(
         ContributionRatings.getLetterSign(), ContributionRatings.getColor(), thisYear, thisMonth, thisWeek
     ));

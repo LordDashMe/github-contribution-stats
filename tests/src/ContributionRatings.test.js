@@ -18,8 +18,8 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.setThisWeekCommits(1);
     ContributionRatings.calculate();
     
-    expect(ContributionRatings.getLetterSign()).toBe('B+');
-    expect(ContributionRatings.getColor()).toBe('#2fa0ed');
+    expect(ContributionRatings.getLetterSign()).toBe('A');
+    expect(ContributionRatings.getColor()).toBe('#1eb300');
   });
 
 });

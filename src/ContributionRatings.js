@@ -64,9 +64,9 @@ const ContributionRatings = {
   ],
   metrics: {
     SIGMA: 1000,
-    THIS_YEAR_COMMITS: 0.8,
-    THIS_MONTH_COMMITS: 1,
-    THIS_WEEK_COMMITS: 1.5
+    THIS_YEAR_COMMITS: 1,
+    THIS_MONTH_COMMITS: 2,
+    THIS_WEEK_COMMITS: 3
   },
   ratings: {
     letterSign: '',

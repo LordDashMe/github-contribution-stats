@@ -15,7 +15,7 @@ const computeThisMonthCommits = (contributions) => {
     const weekDays = contributions.contributionCalendar.weeks[weeksLength].contributionDays;
     const weekDaysLength = weekDays.length - 1;
 
-    for (let y = 0; y < weekDaysLength; y++) {
+    for (let y = 0; y <= weekDaysLength; y++) {
       collectTotalCommits += weekDays[y].contributionCount;
     }
 
@@ -34,7 +34,7 @@ const computeThisWeekCommits = (contributions) => {
 
   let collectTotalCommits = 0;
 
-  for (let x = 0; x < weekDaysLength; x++) {
+  for (let x = 0; x <= weekDaysLength; x++) {
     collectTotalCommits += weekDays[x].contributionCount;
   }
 
