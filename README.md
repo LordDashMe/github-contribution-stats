@@ -2,6 +2,10 @@
 
 Get your dynamically generated Github Contribution Stats!
 
+## Sample
+
+[LordDashMe](https://github-contribution-stats.vercel.app/api/?username=lorddashme)
+
 ## Usage
 
 @TODO
