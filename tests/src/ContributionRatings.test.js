@@ -20,7 +20,7 @@ describe('Tests for Contribution Ratings.', () => {
     
     expect(ContributionRatings.getLetterSign()).toBe('A');
     expect(ContributionRatings.getColor()).toBe('#1eb300');
-    expect(ContributionRatings.getProgress()).toBe('60');
+    expect(ContributionRatings.getProgress()).toBe('100');
   });
 
 });
