@@ -2,7 +2,7 @@
 
 Get your dynamically generated Github Contribution Stats! :chart_with_upwards_trend: :calendar:
 
-[![Build Status](https://img.shields.io/travis/LordDashMe/github-contribution-stats/master.svg?style=flat-square)](https://travis-ci.org/LordDashMe/github-contribution-stats) [![Coverage Status](https://img.shields.io/coveralls/LordDashMe/github-contribution-stats/master.svg?style=flat-square)](https://coveralls.io/github/LordDashMe/github-contribution-stats?branch=master)
+[![Build Status](https://img.shields.io/travis/LordDashMe/github-contribution-stats/master.svg?style=flat-square&v=1)](https://travis-ci.org/LordDashMe/github-contribution-stats) [![Coverage Status](https://img.shields.io/coveralls/LordDashMe/github-contribution-stats/master.svg?style=flat-square)](https://coveralls.io/github/LordDashMe/github-contribution-stats?branch=master)
 
 ## Demo
 
