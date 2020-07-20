@@ -10,23 +10,23 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
   - [Miško Hevery](https://github.com/mhevery)
 
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery&v=1.0.1)](https://github.com/LordDashMe/github-contribution-stats/)
 
   - [Taylor Otwell](https://github.com/taylorotwell)
 
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell&v=1.0.1)](https://github.com/LordDashMe/github-contribution-stats/)
 
   - [Andrew Nesbitt](https://github.com/andrew)
 
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=andrew)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=andrew&v=1.0.1)](https://github.com/LordDashMe/github-contribution-stats/)
 
   - [Chie](https://github.com/chiedev)
 
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=chiedev)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=chiedev&v=1.0.1)](https://github.com/LordDashMe/github-contribution-stats/)
 
   - And Me :joy:
 
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme&v=1.0.1)](https://github.com/LordDashMe/github-contribution-stats/)
 
 ## Usage
 
