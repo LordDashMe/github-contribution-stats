@@ -25,7 +25,7 @@ const ContributionRatings = {
       min: 95,
       letterSign: 'S',
       color: '#b30000',
-      progress: '5'
+      progress: '0'
     },
     {
       id: 'A_PLUS_SCORE',
@@ -33,7 +33,7 @@ const ContributionRatings = {
       min: 75,
       letterSign: 'A+',
       color: '#7d00b3',
-      progress: '30'
+      progress: '50'
     },
     {
       id: 'A_SCORE',
@@ -41,7 +41,7 @@ const ContributionRatings = {
       min: 65,
       letterSign: 'A',
       color: '#1eb300',
-      progress: '60'
+      progress: '100'
     },
     {
       id: 'B_PLUS_SCORE',
@@ -49,7 +49,7 @@ const ContributionRatings = {
       min: 55,
       letterSign: 'B+',
       color: '#2fa0ed',
-      progress: '100'
+      progress: '120'
     },
     {
       id: 'B_SCORE',
@@ -57,7 +57,7 @@ const ContributionRatings = {
       min: 40,
       letterSign: 'B',
       color: '#2f74ed',
-      progress: '130'
+      progress: '140'
     },
     {
       id: 'C_SCORE',

@@ -346,7 +346,7 @@ const CardTemplates = (ratingsLetterSign, ratingsColor, ratingsProgress, thisYea
     <g id="ratings" transform="translate(220, 90)">
       <circle class="rating-circle-stroke" cx="-10" cy="8" r="38" />
       <circle class="rating-circle" cx="-10" cy="8" r="38" />
-      <text class="rating-letter-sign" x="-5" y="3" text-anchor="middle" alignment-baseline="central" dominant-baseline="central">${ratingsLetterSign}</text>
+      <text class="rating-letter-sign" x="-5" y="2" text-anchor="middle" alignment-baseline="central" dominant-baseline="central">${ratingsLetterSign}</text>
     </g>
   `;
 
@@ -385,15 +385,15 @@ const CardTemplates = (ratingsLetterSign, ratingsColor, ratingsProgress, thisYea
     <svg x="0" y="62">
       <g id="this_year_commits" class="contribution-stats-wrapper" style="animation-delay: 500ms" transform="translate(25, 15)">
         <text class="contribution-stats" x="0" y="0">This Year:</text>
-        <text class="contribution-stats bold" x="70" y="0">${shortNumberDenomination(thisYearCommits, 2)}</text>
+        <text class="contribution-stats bold" x="90" y="0">${shortNumberDenomination(thisYearCommits, 2)}</text>
       </g>
       <g id="this_month_commits" class="contribution-stats-wrapper" style="animation-delay: 1000ms" transform="translate(25, 35)">
         <text class="contribution-stats" x="0" y="5">This Month:</text>
-        <text class="contribution-stats bold" x="87" y="5">${shortNumberDenomination(thisMonthCommits, 2)}</text>
+        <text class="contribution-stats bold" x="90" y="5">${shortNumberDenomination(thisMonthCommits, 2)}</text>
       </g>
       <g id="this_week_commits" class="contribution-stats-wrapper" style="animation-delay: 1500ms" transform="translate(25, 55)">
         <text class="contribution-stats" x="0" y="10">This Week:</text>
-        <text class="contribution-stats bold" x="80" y="10">${shortNumberDenomination(thisWeekCommits, 2)}</text>
+        <text class="contribution-stats bold" x="90" y="10">${shortNumberDenomination(thisWeekCommits, 2)}</text>
       </g>
     </svg>
   `;
