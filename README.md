@@ -27,12 +27,10 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 - Special metion for those who are currently using it right now for their Github README profile :smile: :tada:
 
   - [Chie](https://github.com/chiedev)
-
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=chiedev)](https://github.com/LordDashMe/github-contribution-stats/)
-    
-  - [vitordelfino](https://github.com/vitordelfino)
   
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=vitordelfino)](https://github.com/LordDashMe/github-contribution-stats/)
+  - [vitordelfino](https://github.com/vitordelfino)
+
+  - [0000marcell](https://github.com/0000marcell)
 
 ## Usage
 
