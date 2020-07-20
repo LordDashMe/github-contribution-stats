@@ -11,6 +11,15 @@ require('dotenv').config();
 
 const axios = require('axios');
 
+/**
+ * The Fetch Stats Function.
+ * 
+ * This function holds the request for the github graphql APIs.
+ * 
+ * @param {String} username The target github username for contribution stats.
+ * 
+ * @return {*}
+ */
 const FetchStats = async (username) => {
   
   try {
@@ -19,7 +28,7 @@ const FetchStats = async (username) => {
       url: 'https://api.github.com/graphql',
       method: 'POST',
       headers: {
-        Authorization: `bearer ${process.env.GITHUB_USER_TOKEN}`
+        Authorization: `bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`
       },
       data: {
         query: `query {
@@ -56,9 +65,12 @@ const FetchStats = async (username) => {
     return {};
     
   } catch (error) {
-    
+
+    console.error(error);
     return {};
+    
   }
+
 };
 
 module.exports = {

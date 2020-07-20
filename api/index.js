@@ -8,9 +8,9 @@
  */
 
 const { FetchStats } = require('../src/FetchStats');
-const { ContributionRatings } = require('../src/ContributionRatings');
-const { ComputeCommits } = require('../src/ComputeCommits');
 const { CardTemplates } = require('../src/CardTemplates');
+const { ComputeCommits } = require('../src/ComputeCommits');
+const { ContributionRatings } = require('../src/ContributionRatings');
 
 module.exports = async (req, res) => {
 
@@ -32,14 +32,10 @@ module.exports = async (req, res) => {
     ContributionRatings.setThisWeekCommits(thisWeek);
     ContributionRatings.calculate();
 
-    console.log('stats', ContributionRatings.getLetterSign());
+    const template = CardTemplates(
+        ContributionRatings.getLetterSign(), ContributionRatings.getColor(), ContributionRatings.getProgress(),
+        thisYear, thisMonth, thisWeek
+    );
 
-    res.send(CardTemplates(
-        ContributionRatings.getLetterSign(), 
-        ContributionRatings.getColor(), 
-        ContributionRatings.getProgress(),
-        thisYear, 
-        thisMonth, 
-        thisWeek
-    ));
+    res.send(template);
 };

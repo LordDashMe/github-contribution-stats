@@ -17,7 +17,7 @@ describe('Tests for /api/ route.', () => {
 
     await api(request, response);
 
-    expect(response.setHeader).toBeCalledWith('Cache-Control', 'public, max-age=120');
+    expect(response.setHeader).toBeCalledWith('Cache-Control', 'public, max-age=1800');
     expect(response.setHeader).toBeCalledWith('Content-Type', 'image/svg+xml');
 
   });

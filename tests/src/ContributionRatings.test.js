@@ -8,8 +8,8 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.setThisWeekCommits(0);
     ContributionRatings.calculate();
     
-    expect(ContributionRatings.getLetterSign()).toBe('C');
-    expect(ContributionRatings.getColor()).toBe('#ed962f');
+    expect(ContributionRatings.getLetterSign()).toBe('B');
+    expect(ContributionRatings.getColor()).toBe('#2f74ed');
   });
 
   it('should calculate given contribution ratings.', () => {

@@ -21,7 +21,7 @@ describe('Tests for Card Templates.', () => {
       stats.thisWeekCommits
     );
     
-    expect(document.body.getElementsByTagName('svg')[0].getAttribute('width')).toBe('310');
+    expect(document.body.getElementsByTagName('svg')[0].getAttribute('width')).toBe('278');
     expect(document.getElementById('this_year_commits').getElementsByClassName('bold')[0].textContent).toBe('1.42k');
     expect(document.getElementById('this_month_commits').getElementsByClassName('bold')[0].textContent).toBe('500');
     expect(document.getElementById('this_week_commits').getElementsByClassName('bold')[0].textContent).toBe('5');

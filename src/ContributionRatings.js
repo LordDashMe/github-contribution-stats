@@ -30,38 +30,38 @@ const ContributionRatings = {
     {
       id: 'A_PLUS_SCORE',
       max: 94.99,
-      min: 90,
+      min: 75,
       letterSign: 'A+',
       color: '#7d00b3',
       progress: '30'
     },
     {
       id: 'A_SCORE',
-      max: 89.99,
-      min: 80,
+      max: 74.99,
+      min: 65,
       letterSign: 'A',
       color: '#1eb300',
       progress: '60'
     },
     {
       id: 'B_PLUS_SCORE',
-      max: 79.99,
-      min: 75,
+      max: 64.99,
+      min: 55,
       letterSign: 'B+',
       color: '#2fa0ed',
       progress: '100'
     },
     {
       id: 'B_SCORE',
-      max: 74.99,
-      min: 65,
+      max: 54.99,
+      min: 40,
       letterSign: 'B',
       color: '#2f74ed',
       progress: '130'
     },
     {
       id: 'C_SCORE',
-      max: 64.99,
+      max: 39.99,
       min: 0,
       letterSign: 'C',
       color: '#ed962f',
@@ -69,8 +69,8 @@ const ContributionRatings = {
     }
   ],
   metrics: {
-    SIGMA: 1000,
-    THIS_YEAR_COMMITS: 1,
+    SIGMA: 800,
+    THIS_YEAR_COMMITS: 0.5,
     THIS_MONTH_COMMITS: 2,
     THIS_WEEK_COMMITS: 3
   },
@@ -82,6 +82,7 @@ const ContributionRatings = {
   thisMonthCommits: 0,
   thisWeekCommits: 0,
   overallScores: 0,
+
   /**
    * The setter method for the this year commits property.
    * 

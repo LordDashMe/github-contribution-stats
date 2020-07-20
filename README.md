@@ -20,7 +20,11 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=andrew)](https://github.com/LordDashMe/github-contribution-stats/)
 
-  - Me :joy:
+  - [Chie](https://github.com/chiedev)
+
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=chiedev)](https://github.com/LordDashMe/github-contribution-stats/)
+
+  - And Me :joy:
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
 
@@ -31,6 +35,21 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 ```text
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
 ```
+
+## Ratings
+
+- Table for the Rating Range, Letter Sign and Color.
+
+| Rating Range | Letter Sign | Color |
+| ---- | ---- | ---- |
+| 100 - 95 | S | #b30000 |
+| 94.99 - 75 | A+ | #7d00b3 |
+| 74.99 - 65 | A | #1eb300 |
+| 64.99 - 55 | B+ | #2fa0ed |
+| 54.99 - 40 | B | #2f74ed |
+| 39.99 - 0 | C | #ed962f |
+
+- Using some of the common statistic formula we are able to calculate the final ratings. See [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js#L139)
 
 ## Layout Customization
 
