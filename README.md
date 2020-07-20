@@ -12,10 +12,6 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery)](https://github.com/LordDashMe/github-contribution-stats/)
 
-  - [Taylor Otwell](https://github.com/taylorotwell)
-
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
-
   - [Andrew Nesbitt](https://github.com/andrew)
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=andrew)](https://github.com/LordDashMe/github-contribution-stats/)
@@ -38,7 +34,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
 ## Ratings
 
-- Table for the Rating Range, Letter Sign and Color.
+- The table for the Rating Range, Letter Sign and Color.
 
 | Rating Range | Letter Sign | Color |
 | ---- | ---- | ---- |
@@ -49,7 +45,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 | 54.99 - 40 | B | #2f74ed |
 | 39.99 - 0 | C | #ed962f |
 
-- Using some of the common statistic formula we are able to calculate the final ratings. See the [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js#L139)
+- Using some of the common statistic formula we are able to calculate the final ratings. See the code implementation [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js#L139)
 
 ## Layout Customization
 
