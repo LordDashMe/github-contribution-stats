@@ -13,7 +13,7 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.calculate();
     
     expect(ContributionRatings.getLetterSign()).toBe('B');
-    expect(ContributionRatings.getColor()).toBe('#2f74ed');
+    expect(ContributionRatings.getColor()).toBe('#ed962f');
   });
 
   it('should calculate given high contribution ratings.', () => {
@@ -27,7 +27,7 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.calculate();
     
     expect(ContributionRatings.getLetterSign()).toBe('A+');
-    expect(ContributionRatings.getColor()).toBe('#7d00b3');
+    expect(ContributionRatings.getColor()).toBe('#1eb300');
     expect(ContributionRatings.getProgress()).toBe('50');
   });
 
@@ -42,7 +42,7 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.calculate();
     
     expect(ContributionRatings.getLetterSign()).toBe('B+');
-    expect(ContributionRatings.getColor()).toBe('#2fa0ed');
+    expect(ContributionRatings.getColor()).toBe('#2f74ed');
     expect(ContributionRatings.getProgress()).toBe('120');
   });
 
@@ -57,7 +57,7 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.calculate();
     
     expect(ContributionRatings.getLetterSign()).toBe('B+');
-    expect(ContributionRatings.getColor()).toBe('#2fa0ed');
+    expect(ContributionRatings.getColor()).toBe('#2f74ed');
     expect(ContributionRatings.getProgress()).toBe('120');
   });
 

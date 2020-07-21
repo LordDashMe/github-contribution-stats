@@ -24,7 +24,7 @@ const ContributionRatings = {
       max: 100,
       min: 98,
       letterSign: 'S',
-      color: '#b30000',
+      color: '#7d00b3',
       progress: '0'
     },
     {
@@ -32,7 +32,7 @@ const ContributionRatings = {
       max: 97,
       min: 75,
       letterSign: 'A+',
-      color: '#7d00b3',
+      color: '#1eb300',
       progress: '50'
     },
     {
@@ -40,7 +40,7 @@ const ContributionRatings = {
       max: 74,
       min: 65,
       letterSign: 'A',
-      color: '#1eb300',
+      color: '#2fa0ed',
       progress: '100'
     },
     {
@@ -48,7 +48,7 @@ const ContributionRatings = {
       max: 64,
       min: 55,
       letterSign: 'B+',
-      color: '#2fa0ed',
+      color: '#2f74ed',
       progress: '120'
     },
     {
@@ -56,7 +56,7 @@ const ContributionRatings = {
       max: 54,
       min: 40,
       letterSign: 'B',
-      color: '#2f74ed',
+      color: '#ed962f',
       progress: '140'
     },
     {
@@ -64,7 +64,7 @@ const ContributionRatings = {
       max: 39,
       min: 0,
       letterSign: 'C',
-      color: '#ed962f',
+      color: '#b30000',
       progress: '170'
     }
   ],
