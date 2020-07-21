@@ -49,7 +49,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 | 54 - 40 | B | #2f74ed |
 | 39 - 0 | C | #ed962f |
 
-- Using some of the common statistic formula we are able to calculate the final ratings. See the code implementation [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js#L139)
+- Using some of the common statistic formula we are able to calculate the final ratings. See the code implementation [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js)
 
 ## Layout Customization
 
