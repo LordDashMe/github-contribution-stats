@@ -24,9 +24,9 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.setCodeReviews(1);
     ContributionRatings.calculate();
     
-    expect(ContributionRatings.getLetterSign()).toBe('A+');
-    expect(ContributionRatings.getColor()).toBe('#7d00b3');
-    expect(ContributionRatings.getProgress()).toBe('50');
+    expect(ContributionRatings.getLetterSign()).toBe('A');
+    expect(ContributionRatings.getColor()).toBe('#1eb300');
+    expect(ContributionRatings.getProgress()).toBe('100');
   });
 
 });

@@ -69,13 +69,13 @@ const ContributionRatings = {
     }
   ],
   metrics: {
-    SIGMA: 350,
+    SIGMA: 500,
     THIS_YEAR_COMMITS: 0.2,
     THIS_MONTH_COMMITS: 2,
     THIS_WEEK_COMMITS: 2.5,
-    PULL_REQUESTS: 2.4,
-    ISSUES: 2.4,
-    CODE_REVIEWS: 2.6
+    PULL_REQUESTS: 1.1,
+    ISSUES: 1.2,
+    CODE_REVIEWS: 1.2
   },
   ratings: {
     letterSign: '',
