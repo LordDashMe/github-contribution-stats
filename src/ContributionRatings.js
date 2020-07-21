@@ -22,14 +22,14 @@ const ContributionRatings = {
     {
       id: 'S_SCORE',
       max: 100,
-      min: 95,
+      min: 98,
       letterSign: 'S',
       color: '#b30000',
       progress: '0'
     },
     {
       id: 'A_PLUS_SCORE',
-      max: 94,
+      max: 97,
       min: 75,
       letterSign: 'A+',
       color: '#7d00b3',
@@ -70,12 +70,12 @@ const ContributionRatings = {
   ],
   metrics: {
     SIGMA: 500,
-    THIS_YEAR_COMMITS: 0.2,
-    THIS_MONTH_COMMITS: 2,
-    THIS_WEEK_COMMITS: 2.5,
-    PULL_REQUESTS: 1.1,
-    ISSUES: 1.2,
-    CODE_REVIEWS: 1.2
+    THIS_YEAR_COMMITS: 0.6,
+    THIS_MONTH_COMMITS: 0.8,
+    THIS_WEEK_COMMITS: 1,
+    PULL_REQUESTS: 2,
+    ISSUES: 2,
+    CODE_REVIEWS: 2
   },
   ratings: {
     letterSign: '',
