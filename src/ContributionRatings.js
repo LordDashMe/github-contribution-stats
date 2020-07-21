@@ -20,10 +20,10 @@ const { mean, zScore, standardNormalDistribution } = require('./Helper');
 const ContributionRatings = {
   scores: [
     {
-      id: 'S_SCORE',
+      id: 'S_PLUS_SCORE',
       max: 100,
       min: 98,
-      letterSign: 'S',
+      letterSign: 'S+',
       color: '#7d00b3',
       progress: '0'
     },
