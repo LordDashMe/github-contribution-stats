@@ -298,7 +298,7 @@ const CardTemplates = (
       
       .rating-letter-sign { 
         font-family: 'Montserrat', sans-serif;
-        font-size: 32px;
+        font-size: 38px;
         font-weight: 700; 
         fill: ${ratingsColor};
         animation: scaleIn 0.3s ease-in-out forwards;
@@ -362,7 +362,7 @@ const CardTemplates = (
     <g id="ratings" transform="translate(265, 120)">
       <circle class="rating-circle-stroke" cx="-10" cy="8" r="38" />
       <circle class="rating-circle" cx="-10" cy="8" r="38" />
-      <text class="rating-letter-sign" x="-5" y="2" text-anchor="middle" alignment-baseline="central" dominant-baseline="central">${ratingsLetterSign}</text>
+      <text class="rating-letter-sign" x="-4" y="2" text-anchor="middle" alignment-baseline="central" dominant-baseline="central">${ratingsLetterSign}</text>
     </g>
   `;
 

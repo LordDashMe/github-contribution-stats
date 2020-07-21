@@ -44,7 +44,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
 | Rating Range | Letter Sign | Color |
 | ---- | ---- | ---- |
-| 100 - 98 | S+ | #7d00b3 |
+| 100 - 98 | S | #7d00b3 |
 | 97 - 75 | A+ | #1eb300 |
 | 74 - 65 | A | #2fa0ed |
 | 64 - 55 | B+ | #2f74ed |

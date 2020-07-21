@@ -15,6 +15,9 @@ const { mean, zScore, standardNormalDistribution } = require('./Helper');
  * This object class is responsible for calculating and managing
  * the overall contributions based on the hardcoded metrics.
  * 
+ * The Letter Sign for particular score are based on some academic standard.
+ * https://en.wikipedia.org/wiki/Academic_grading_in_Japan
+ * 
  * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
  */
 const ContributionRatings = {
@@ -23,7 +26,7 @@ const ContributionRatings = {
       id: 'S_PLUS_SCORE',
       max: 100,
       min: 98,
-      letterSign: 'S+',
+      letterSign: 'S',
       color: '#7d00b3',
       progress: '0'
     },
