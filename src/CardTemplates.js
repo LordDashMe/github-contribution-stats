@@ -307,7 +307,7 @@ const CardTemplates = (
       .rating-circle-stroke {
         stroke: #ababab;
         fill: none;
-        stroke-width: 6;
+        stroke-width: 7.5;
         opacity: 0.2;
       }
       
@@ -315,7 +315,7 @@ const CardTemplates = (
         stroke: ${ratingsColor};
         stroke-dasharray: 250;
         fill: none;
-        stroke-width: 6;
+        stroke-width: 7.5;
         stroke-linecap: round;
         opacity: 0.8;
         transform-origin: -10px 8px;
@@ -359,10 +359,10 @@ const CardTemplates = (
   `;
 
   const ratingGraphTemplate = `
-    <g id="ratings" transform="translate(265, 120)">
-      <circle class="rating-circle-stroke" cx="-10" cy="8" r="38" />
-      <circle class="rating-circle" cx="-10" cy="8" r="38" />
-      <text class="rating-letter-sign" x="-4" y="2" text-anchor="middle" alignment-baseline="central" dominant-baseline="central">${ratingsLetterSign}</text>
+    <g id="ratings" transform="translate(265, 115)">
+      <circle class="rating-circle-stroke" cx="-10" cy="8" r="40" />
+      <circle class="rating-circle" cx="-10" cy="8" r="40" />
+      <text class="rating-letter-sign" x="-5" y="2" text-anchor="middle" alignment-baseline="central" dominant-baseline="central">${ratingsLetterSign}</text>
     </g>
   `;
 
