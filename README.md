@@ -6,7 +6,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
 ## Demo
 
-- See the sample usage with some of our famous open source contributor :tada: :trophy:.
+- See the sample usage with some of our famous open source contributor :trophy:.
 
   - [Miško Hevery](https://github.com/mhevery)
 
@@ -20,10 +20,6 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=fabpot)](https://github.com/LordDashMe/github-contribution-stats/)
 
-  - And Me :joy:
-
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
-
 - Special metion for those who are currently using it right now for their Github README profile :smile: :tada:
 
   - [Chie](https://github.com/chiedev)
@@ -34,7 +30,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
 ## Usage
 
-- To use, just copy paste this into your markdown content and replace the value of the ```?username=``` URL parameter based on your **github username**.
+- To use, just copy paste this into your markdown content and replace the value of the ```?username=``` URL parameter based on your Github **username**.
 
 ```text
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
