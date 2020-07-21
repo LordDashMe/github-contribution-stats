@@ -1,5 +1,5 @@
 /*
- * This file is part of the Github Contributioin Stats.
+ * This file is part of the Github Contribution Stats.
  *
  * (c) Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
  *
@@ -29,7 +29,7 @@ const ContributionRatings = {
     },
     {
       id: 'A_PLUS_SCORE',
-      max: 94.99,
+      max: 94,
       min: 75,
       letterSign: 'A+',
       color: '#7d00b3',
@@ -37,7 +37,7 @@ const ContributionRatings = {
     },
     {
       id: 'A_SCORE',
-      max: 74.99,
+      max: 74,
       min: 65,
       letterSign: 'A',
       color: '#1eb300',
@@ -45,7 +45,7 @@ const ContributionRatings = {
     },
     {
       id: 'B_PLUS_SCORE',
-      max: 64.99,
+      max: 64,
       min: 55,
       letterSign: 'B+',
       color: '#2fa0ed',
@@ -53,7 +53,7 @@ const ContributionRatings = {
     },
     {
       id: 'B_SCORE',
-      max: 54.99,
+      max: 54,
       min: 40,
       letterSign: 'B',
       color: '#2f74ed',
@@ -61,7 +61,7 @@ const ContributionRatings = {
     },
     {
       id: 'C_SCORE',
-      max: 39.99,
+      max: 39,
       min: 0,
       letterSign: 'C',
       color: '#ed962f',
@@ -69,10 +69,13 @@ const ContributionRatings = {
     }
   ],
   metrics: {
-    SIGMA: 800,
-    THIS_YEAR_COMMITS: 0.5,
+    SIGMA: 350,
+    THIS_YEAR_COMMITS: 0.2,
     THIS_MONTH_COMMITS: 2,
-    THIS_WEEK_COMMITS: 3
+    THIS_WEEK_COMMITS: 2.5,
+    PULL_REQUESTS: 2.4,
+    ISSUES: 2.4,
+    CODE_REVIEWS: 2.6
   },
   ratings: {
     letterSign: '',
@@ -81,6 +84,9 @@ const ContributionRatings = {
   thisYearCommits: 0,
   thisMonthCommits: 0,
   thisWeekCommits: 0,
+  pullRequests: 0,
+  issues: 0,
+  codeReviews: 0,
   overallScores: 0,
 
   /**
@@ -132,6 +138,54 @@ const ContributionRatings = {
   },
 
   /**
+   * The setter method for the pull requests property.
+   * 
+   * @param {Number} pullRequests The total pull requests.
+   * 
+   * @return {VoidFunction}
+   */
+  setPullRequests: (pullRequests) => {
+
+    const self = ContributionRatings;
+
+    if (typeof pullRequests !== 'undefined' && pullRequests) {
+      self.pullRequests = pullRequests * self.metrics.PULL_REQUESTS;
+    }
+  },
+
+  /**
+   * The setter method for the issues property.
+   * 
+   * @param {Number} issues The total issues.
+   * 
+   * @return {VoidFunction}
+   */
+  setIssues: (issues) => {
+
+    const self = ContributionRatings;
+
+    if (typeof issues !== 'undefined' && issues) {
+      self.issues = issues * self.metrics.ISSUES;
+    }
+  },
+
+  /**
+   * The setter method for the code reviews property.
+   * 
+   * @param {Number} codeReviews The total code reviews.
+   * 
+   * @return {VoidFunction}
+   */
+  setCodeReviews: (codeReviews) => {
+
+    const self = ContributionRatings;
+
+    if (typeof codeReviews !== 'undefined' && codeReviews) {
+      self.codeReviews = codeReviews * self.metrics.CODE_REVIEWS;
+    }
+  },
+
+  /**
    * The calculate process for the Contribution Ratings.
    * 
    * @return {VoidFunction}
@@ -139,8 +193,25 @@ const ContributionRatings = {
   calculate: () => {
 
     const self = ContributionRatings;
-    const x = self.thisYearCommits + self.thisMonthCommits + self.thisWeekCommits;
-    const mu = mean([self.thisYearCommits, self.thisMonthCommits, self.thisWeekCommits]);
+    
+    const x = (
+      self.thisYearCommits + 
+      self.thisMonthCommits + 
+      self.thisWeekCommits +
+      self.pullRequests +
+      self.issues +
+      self.codeReviews
+    );
+
+    const mu = mean([
+      self.thisYearCommits, 
+      self.thisMonthCommits, 
+      self.thisWeekCommits,
+      self.pullRequests,
+      self.issues,
+      self.codeReviews
+    ]);
+
     const z = zScore(x, mu, self.metrics.SIGMA);
 
     self.overallScores = standardNormalDistribution(z) * 100;

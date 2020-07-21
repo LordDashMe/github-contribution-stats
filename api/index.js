@@ -9,8 +9,13 @@
 
 const { FetchStats } = require('../src/FetchStats');
 const { CardTemplates } = require('../src/CardTemplates');
-const { ComputeCommits } = require('../src/ComputeCommits');
 const { ContributionRatings } = require('../src/ContributionRatings');
+const { 
+    ComputeCommitsContribution, 
+    ComputePullRequestsContribution, 
+    ComputeIssuesContribution, 
+    ComputeCodeReviewsContribution 
+} = require('../src/ComputeContributions');
 
 module.exports = async (req, res) => {
 
@@ -21,20 +26,27 @@ module.exports = async (req, res) => {
 
     const stats = await FetchStats(username);
     
-    const commits = ComputeCommits(stats.data.user.contributionsCollection);
+    const commits = ComputeCommitsContribution(stats.data.user.contributionsCollection);
 
     const thisYear = commits.thisYear;
     const thisMonth = commits.thisMonth;
     const thisWeek = commits.thisWeek;
+
+    const pullRequests = ComputePullRequestsContribution(stats.data.user.contributionsCollection);
+    const issues = ComputeIssuesContribution(stats.data.user.contributionsCollection);
+    const codeReviews = ComputeCodeReviewsContribution(stats.data.user.contributionsCollection);
     
     ContributionRatings.setThisYearCommits(thisYear);
     ContributionRatings.setThisMonthCommits(thisMonth);
     ContributionRatings.setThisWeekCommits(thisWeek);
+    ContributionRatings.setPullRequests(pullRequests);
+    ContributionRatings.setIssues(issues);
+    ContributionRatings.setCodeReviews(codeReviews);
     ContributionRatings.calculate();
 
     const template = CardTemplates(
         ContributionRatings.getLetterSign(), ContributionRatings.getColor(), ContributionRatings.getProgress(),
-        thisYear, thisMonth, thisWeek
+        thisYear, thisMonth, thisWeek, pullRequests, issues, codeReviews
     );
 
     res.send(template);

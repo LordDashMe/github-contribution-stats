@@ -1,5 +1,5 @@
 /*
- * This file is part of the Github Contributioin Stats.
+ * This file is part of the Github Contribution Stats.
  *
  * (c) Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
  *
@@ -40,6 +40,9 @@ const FetchStats = async (username) => {
             }
             contributionsCollection {
               totalCommitContributions
+              totalIssueContributions
+              totalPullRequestContributions
+              totalPullRequestReviewContributions
               contributionCalendar {
                 totalContributions
                 months {

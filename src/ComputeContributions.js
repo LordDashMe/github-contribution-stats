@@ -87,7 +87,7 @@ const computeThisWeekCommits = (contributions) => {
 };
 
 /**
- * Consolidated Computation of the Contribution Commits.
+ * Consolidated Computation of the Commits Contribution.
  * 
  * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
  * 
@@ -95,7 +95,7 @@ const computeThisWeekCommits = (contributions) => {
  * 
  * @return {Number}
  */
-const ComputeCommits = (contributions) => {
+const ComputeCommitsContribution = (contributions) => {
   return {
     thisYear: computeThisYearCommits(contributions),
     thisMonth: computeThisMonthCommits(contributions),
@@ -103,6 +103,48 @@ const ComputeCommits = (contributions) => {
   };
 };
 
+/**
+ * Consolidated Computation of the Pull Requests Contribution.
+ * 
+ * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
+ * 
+ * @param {*} contributions The github current contribution data.
+ * 
+ * @return {Number}
+ */
+const ComputePullRequestsContribution = (contributions) => {
+  return contributions.totalPullRequestContributions;
+};
+
+/**
+ * Consolidated Computation of the Issues Contribution.
+ * 
+ * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
+ * 
+ * @param {*} contributions The github current contribution data.
+ * 
+ * @return {Number}
+ */
+const ComputeIssuesContribution = (contributions) => {
+  return contributions.totalIssueContributions;
+};
+
+/**
+ * Consolidated Computation of the Code Reviews Contribution.
+ * 
+ * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
+ * 
+ * @param {*} contributions The github current contribution data.
+ * 
+ * @return {Number}
+ */
+const ComputeCodeReviewsContribution = (contributions) => {
+  return contributions.totalPullRequestReviewContributions;
+};
+
 module.exports = {
-  ComputeCommits: ComputeCommits
+  ComputeCommitsContribution: ComputeCommitsContribution,
+  ComputePullRequestsContribution: ComputePullRequestsContribution,
+  ComputeIssuesContribution: ComputeIssuesContribution,
+  ComputeCodeReviewsContribution: ComputeCodeReviewsContribution
 };

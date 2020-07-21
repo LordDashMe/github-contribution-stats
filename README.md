@@ -15,7 +15,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
   - [Taylor Otwell](https://github.com/taylorotwell)
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
-    
+
   - [Fabien Potencier](https://github.com/fabpot)
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=fabpot)](https://github.com/LordDashMe/github-contribution-stats/)
@@ -23,7 +23,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
   - And Me :joy:
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
-    
+
 - Special metion for those who are currently using it right now for their Github README profile :smile: :tada:
 
   - [Chie](https://github.com/chiedev)
@@ -47,11 +47,11 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 | Rating Range | Letter Sign | Color |
 | ---- | ---- | ---- |
 | 100 - 95 | S | #b30000 |
-| 94.99 - 75 | A+ | #7d00b3 |
-| 74.99 - 65 | A | #1eb300 |
-| 64.99 - 55 | B+ | #2fa0ed |
-| 54.99 - 40 | B | #2f74ed |
-| 39.99 - 0 | C | #ed962f |
+| 94 - 75 | A+ | #7d00b3 |
+| 74 - 65 | A | #1eb300 |
+| 64 - 55 | B+ | #2fa0ed |
+| 54 - 40 | B | #2f74ed |
+| 39 - 0 | C | #ed962f |
 
 - Using some of the common statistic formula we are able to calculate the final ratings. See the code implementation [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js#L139)
 
