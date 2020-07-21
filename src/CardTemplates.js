@@ -127,7 +127,7 @@ const CardTemplates = (
   `;
 
   const cardBackgroundTemplate = `
-    <rect x="0.5" y="0.5"rx="5"width="327" height="100%"  fill="#efefef" stroke="#e1e4e8" />
+    <rect x="0.5" y="0.5" rx="5" width="327" height="100%" fill="#efefef" stroke="#e1e4e8" />
   `;
 
   const ratingGraphTemplate = `
