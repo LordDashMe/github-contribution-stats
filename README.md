@@ -22,11 +22,13 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 
 - Special metion for those who are currently using it right now for their Github README profile :smile: :tada:
 
-  - [Chie](https://github.com/chiedev)
+  - [chiedev](https://github.com/chiedev)
   
   - [vitordelfino](https://github.com/vitordelfino)
 
   - [0000marcell](https://github.com/0000marcell)
+  
+  - [mzaini30](https://github.com/mzaini30)
 
 ## Usage
 
