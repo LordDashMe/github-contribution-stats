@@ -400,7 +400,7 @@ const CardTemplates = (
       <g class="item" style="animation-delay: 1000ms" transform="translate(3, 2)">
         ${pullRequestIcon}
       </g>
-      <g class="item" style="animation-delay: 1000ms" transform="translate(25, 15)">
+      <g id="pull_requests" class="item" style="animation-delay: 1000ms" transform="translate(25, 15)">
         <text class="contribution-stats" x="0" y="0">Pull Requests:</text>
         <text class="contribution-stats bold" x="106" y="0">${shortNumberDenomination(pullRequests, 2)}</text>
       </g>
@@ -412,7 +412,7 @@ const CardTemplates = (
       <g class="item" style="animation-delay: 1200ms" transform="translate(3, 2)">
         ${issuesIcon}
       </g>
-      <g class="item" style="animation-delay: 1200ms" transform="translate(25, 15)">
+      <g id="issues" class="item" style="animation-delay: 1200ms" transform="translate(25, 15)">
         <text class="contribution-stats" x="0" y="0">Issues:</text>
         <text class="contribution-stats bold" x="106" y="0">${shortNumberDenomination(issues, 2)}</text>
       </g>
@@ -424,7 +424,7 @@ const CardTemplates = (
       <g class="item" style="animation-delay: 1400ms" transform="translate(3, 2)">
         ${codeIcon}
       </g>
-      <g class="item" style="animation-delay: 1400ms" transform="translate(25, 15)">
+      <g id="code_reviews" class="item" style="animation-delay: 1400ms" transform="translate(25, 15)">
         <text class="contribution-stats" x="0" y="0">Code Reviews:</text>
         <text class="contribution-stats bold" x="106" y="0">${shortNumberDenomination(codeReviews, 2)}</text>
       </g>

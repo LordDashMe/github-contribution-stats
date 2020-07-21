@@ -6,7 +6,7 @@ describe('Tests for /api/ route.', () => {
 
     const request = {
       query: {
-        username: 'LordDashMe'
+        username: '0000marcell'
       }
     };
 

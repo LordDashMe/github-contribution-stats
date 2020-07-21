@@ -1,4 +1,4 @@
-const { 
+const {
   mean, 
   zScore, 
   standardNormalDistribution, 

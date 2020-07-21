@@ -79,7 +79,8 @@ const ContributionRatings = {
   },
   ratings: {
     letterSign: '',
-    color: ''
+    color: '',
+    progress: ''
   },
   thisYearCommits: 0,
   thisMonthCommits: 0,
@@ -88,6 +89,30 @@ const ContributionRatings = {
   issues: 0,
   codeReviews: 0,
   overallScores: 0,
+
+  /**
+   * Re-initialize new instance of the object class.
+   * 
+   * @return {VoidFunction}
+   */
+  newInstance: () => {
+
+    const self = ContributionRatings;
+
+    self.ratings = {
+      letterSign: '',
+      color: '',
+      progress: ''
+    };
+
+    self.thisYearCommits = 0;
+    self.thisMonthCommits = 0;
+    self.thisWeekCommits = 0;
+    self.pullRequests = 0;
+    self.issues = 0;
+    self.codeReviews = 0;
+    self.overallScores = 0;
+  },
 
   /**
    * The setter method for the this year commits property.
