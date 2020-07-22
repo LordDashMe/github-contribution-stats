@@ -63,7 +63,7 @@ const FetchRepositoryStargazers = async (items, afterCursor) => {
     
   } catch (error) {
 
-    // console.error(error);
+    console.error(error);
     return {};
     
   }
