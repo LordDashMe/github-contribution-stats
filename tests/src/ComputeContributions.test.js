@@ -1,9 +1,4 @@
-const { 
-  ComputeCommitsContribution, 
-  ComputePullRequestsContribution, 
-  ComputeIssuesContribution, 
-  ComputeCodeReviewsContribution 
-} = require('../../src/ComputeContributions');
+const { ComputeContributions } = require('../../src/ComputeContributions');
 
 const mockContributionCollection = {
   "totalCommitContributions": 1405,
@@ -112,20 +107,15 @@ const mockContributionCollection = {
 
 describe('Tests for Compute Commits.', () => {
 
-  it('should compute total commits.', () => {
-    expect(ComputeCommitsContribution(mockContributionCollection).thisYear).toBe(1418);
-  });
+  it('should compute contributions.', () => {
 
-  it('should compute total pull requests.', () => {
-    expect(ComputePullRequestsContribution(mockContributionCollection)).toBe(2);
-  });
+    const computedContribution = ComputeContributions(mockContributionCollection);
 
-  it('should compute total issues.', () => {
-    expect(ComputeIssuesContribution(mockContributionCollection)).toBe(0);
-  });
+    expect(computedContribution.thisYear).toBe(1418);
+    expect(computedContribution.pullRequests).toBe(2);
+    expect(computedContribution.issues).toBe(0);
+    expect(computedContribution.codeReviews).toBe(0);
 
-  it('should compute total code reviews.', () => {
-    expect(ComputeCodeReviewsContribution(mockContributionCollection)).toBe(0);
   });
 
 });

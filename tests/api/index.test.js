@@ -2,11 +2,11 @@ const api = require('../../api/index');
 
 describe('Tests for /api/ route.', () => {
 
-  it('should get response for the api index route.', async () => {
+  it('should get response for the api index route for valid username and indeed a stargazer of the repository.', async () => {
 
     const request = {
       query: {
-        username: '0000marcell'
+        username: 'lorddashme'
       }
     };
 

@@ -17,6 +17,7 @@ const { catIcon, commitIcon, pullRequestIcon, issuesIcon, codeIcon } = require('
  * 
  * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
  * 
+ * @param {Boolean} isStargazer      Flag if the username is a stargazer of the repository.
  * @param {String} ratingsLetterSign The ratings letter sign counter part.
  * @param {String} ratingsColor      The ratings color counter part.
  * @param {String} ratingsProgress   The ratings progress counter part.
@@ -30,6 +31,7 @@ const { catIcon, commitIcon, pullRequestIcon, issuesIcon, codeIcon } = require('
  * @return {String}
  */
 const CardTemplates = (
+  isStargazer,
   ratingsLetterSign, 
   ratingsColor, 
   ratingsProgress, 
@@ -63,6 +65,8 @@ const CardTemplates = (
         font-size: 14px;
         fill: #333;
       }
+
+      ${(!isStargazer ? '.repo-origin {font-size: 10px;}' : '')}
       
       .rating-letter-sign { 
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
@@ -203,8 +207,20 @@ const CardTemplates = (
     </svg>
   `;
 
+  const originTemplate = `
+    <svg x="-6" y="225">
+      <g class="item" style="animation-delay: 1600ms" transform="translate(25, 15)">
+        <text class="contribution-stats repo-origin" x="0" y="0">Visit: https://github.com/lorddashme/github-contribution-stats</text>
+        <text class="contribution-stats repo-origin" x="0" y="15">To support the project and remove this message,</text>
+        <text class="contribution-stats repo-origin" x="0" y="25">simply add star to the repository.</text>
+      </g>
+    </svg>  
+  `;
+
+  const cardHeightTemplate = (!isStargazer ? '285' : '240');
+
   return (`
-    <svg width="328" height="240" viewBox="0 0 328 240" xmlns="http://www.w3.org/2000/svg">
+    <svg width="328" height="${cardHeightTemplate}" viewBox="0 0 328 ${cardHeightTemplate}" xmlns="http://www.w3.org/2000/svg">
       ${styles}
       ${cardBackgroundTemplate}
       
@@ -217,6 +233,8 @@ const CardTemplates = (
       ${pullRequestsTemplate}
       ${issuesTemplate}
       ${codeReviewTemplate}
+
+      ${(!isStargazer ? originTemplate : '')}
     </svg>
   `);
 

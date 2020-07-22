@@ -3,6 +3,7 @@ const { ContributionRatings } = require('../../src/ContributionRatings');
 describe('Tests for Contribution Ratings.', () => {
 
   it('should calculate default contribution ratings.', () => {
+
     ContributionRatings.newInstance();
     ContributionRatings.setThisYearCommits(0);
     ContributionRatings.setThisMonthCommits(0);
@@ -14,9 +15,11 @@ describe('Tests for Contribution Ratings.', () => {
     
     expect(ContributionRatings.getLetterSign()).toBe('B');
     expect(ContributionRatings.getColor()).toBe('#ed962f');
+    
   });
 
   it('should calculate given high contribution ratings.', () => {
+
     ContributionRatings.newInstance();
     ContributionRatings.setThisYearCommits(1453);
     ContributionRatings.setThisMonthCommits(53);
@@ -29,9 +32,11 @@ describe('Tests for Contribution Ratings.', () => {
     expect(ContributionRatings.getLetterSign()).toBe('A+');
     expect(ContributionRatings.getColor()).toBe('#1eb300');
     expect(ContributionRatings.getProgress()).toBe('50');
+
   });
 
   it('should calculate given lower contribution ratings.', () => {
+
     ContributionRatings.newInstance();
     ContributionRatings.setThisYearCommits(123);
     ContributionRatings.setThisMonthCommits(7);
@@ -44,9 +49,11 @@ describe('Tests for Contribution Ratings.', () => {
     expect(ContributionRatings.getLetterSign()).toBe('B+');
     expect(ContributionRatings.getColor()).toBe('#2f74ed');
     expect(ContributionRatings.getProgress()).toBe('120');
+
   });
 
   it('should calculate given middle contribution ratings.', () => {
+
     ContributionRatings.newInstance();
     ContributionRatings.setThisYearCommits(158);
     ContributionRatings.setThisMonthCommits(5);
@@ -59,6 +66,7 @@ describe('Tests for Contribution Ratings.', () => {
     expect(ContributionRatings.getLetterSign()).toBe('B+');
     expect(ContributionRatings.getColor()).toBe('#2f74ed');
     expect(ContributionRatings.getProgress()).toBe('120');
+
   });
 
 });

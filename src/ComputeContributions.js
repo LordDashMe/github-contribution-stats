@@ -87,64 +87,25 @@ const computeThisWeekCommits = (contributions) => {
 };
 
 /**
- * Consolidated Computation of the Commits Contribution.
+ * Consolidated Computation of the Contribution.
  * 
  * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
  * 
  * @param {*} contributions The github current contribution data.
  * 
- * @return {Number}
+ * @return {*}
  */
-const ComputeCommitsContribution = (contributions) => {
+const ComputeContributions = (contributions) => {
   return {
     thisYear: computeThisYearCommits(contributions),
     thisMonth: computeThisMonthCommits(contributions),
     thisWeek: computeThisWeekCommits(contributions),
+    pullRequests: contributions.totalPullRequestContributions,
+    issues: contributions.totalIssueContributions,
+    codeReviews: contributions.totalPullRequestReviewContributions
   };
 };
 
-/**
- * Consolidated Computation of the Pull Requests Contribution.
- * 
- * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
- * 
- * @param {*} contributions The github current contribution data.
- * 
- * @return {Number}
- */
-const ComputePullRequestsContribution = (contributions) => {
-  return contributions.totalPullRequestContributions;
-};
-
-/**
- * Consolidated Computation of the Issues Contribution.
- * 
- * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
- * 
- * @param {*} contributions The github current contribution data.
- * 
- * @return {Number}
- */
-const ComputeIssuesContribution = (contributions) => {
-  return contributions.totalIssueContributions;
-};
-
-/**
- * Consolidated Computation of the Code Reviews Contribution.
- * 
- * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
- * 
- * @param {*} contributions The github current contribution data.
- * 
- * @return {Number}
- */
-const ComputeCodeReviewsContribution = (contributions) => {
-  return contributions.totalPullRequestReviewContributions;
-};
-
 module.exports = {
-  ComputeCommitsContribution: ComputeCommitsContribution,
-  ComputePullRequestsContribution: ComputePullRequestsContribution,
-  ComputeIssuesContribution: ComputeIssuesContribution,
-  ComputeCodeReviewsContribution: ComputeCodeReviewsContribution
+  ComputeContributions: ComputeContributions
 };

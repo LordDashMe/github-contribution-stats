@@ -33,11 +33,6 @@ const FetchStats = async (username) => {
       data: {
         query: `query {
           user(login: "${username}") {
-            login
-            name
-            followers {
-              totalCount
-            }
             contributionsCollection {
               totalCommitContributions
               totalIssueContributions
@@ -69,7 +64,7 @@ const FetchStats = async (username) => {
     
   } catch (error) {
 
-    console.error(error);
+    // console.error(error);
     return {};
     
   }
