@@ -13,8 +13,7 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.setCodeReviews(0);
     ContributionRatings.calculate();
     
-    expect(ContributionRatings.getLetterSign()).toBe('B');
-    expect(ContributionRatings.getColor()).toBe('#ed962f');
+    expect(ContributionRatings.getLetterSign()).toBe('C');
     
   });
 
@@ -30,8 +29,6 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.calculate();
     
     expect(ContributionRatings.getLetterSign()).toBe('A+');
-    expect(ContributionRatings.getColor()).toBe('#1eb300');
-    expect(ContributionRatings.getProgress()).toBe('50');
 
   });
 
@@ -46,9 +43,7 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.setCodeReviews(1);
     ContributionRatings.calculate();
     
-    expect(ContributionRatings.getLetterSign()).toBe('B+');
-    expect(ContributionRatings.getColor()).toBe('#2f74ed');
-    expect(ContributionRatings.getProgress()).toBe('120');
+    expect(ContributionRatings.getLetterSign()).toBe('A');
 
   });
 
@@ -63,9 +58,7 @@ describe('Tests for Contribution Ratings.', () => {
     ContributionRatings.setCodeReviews(0);
     ContributionRatings.calculate();
     
-    expect(ContributionRatings.getLetterSign()).toBe('B+');
-    expect(ContributionRatings.getColor()).toBe('#2f74ed');
-    expect(ContributionRatings.getProgress()).toBe('120');
+    expect(ContributionRatings.getLetterSign()).toBe('A');
 
   });
 

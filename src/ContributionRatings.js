@@ -33,38 +33,38 @@ const ContributionRatings = {
     {
       id: 'A_PLUS_SCORE',
       max: 97,
-      min: 75,
+      min: 81,
       letterSign: 'A+',
       color: '#1eb300',
       progress: '50'
     },
     {
       id: 'A_SCORE',
-      max: 74,
-      min: 65,
+      max: 80,
+      min: 41,
       letterSign: 'A',
       color: '#2fa0ed',
       progress: '100'
     },
     {
       id: 'B_PLUS_SCORE',
-      max: 64,
-      min: 55,
+      max: 40,
+      min: 31,
       letterSign: 'B+',
       color: '#2f74ed',
       progress: '120'
     },
     {
       id: 'B_SCORE',
-      max: 54,
-      min: 40,
+      max: 30,
+      min: 21,
       letterSign: 'B',
       color: '#ed962f',
       progress: '140'
     },
     {
       id: 'C_SCORE',
-      max: 39,
+      max: 20,
       min: 0,
       letterSign: 'C',
       color: '#b30000',
@@ -240,9 +240,10 @@ const ContributionRatings = {
       self.codeReviews
     ]);
 
-    const z = zScore(x, mu, self.metrics.SIGMA);
-
-    self.overallScores = standardNormalDistribution(z) * 100;
+    if (x !== 0) {
+      const z = zScore(x, mu, self.metrics.SIGMA);
+      self.overallScores = Math.round((standardNormalDistribution(z) * 100));
+    }
 
     self.processOverallScoresCondition();
   },
