@@ -29,22 +29,26 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
   - [0000marcell](https://github.com/0000marcell)
   
   - [mzaini30](https://github.com/mzaini30)
+  
+  - [matrixjnr](https://github.com/matrixjnr)
+  
+  - [molleer](https://github.com/molleer)
 
 ## Usage
 
-- To use, just copy paste this into your markdown content and replace the value of the ```?username=``` URL parameter based on your Github **username**.
+To use, just copy paste this into your markdown content and replace the value of the **?username=** URL parameter based on your Github username.
 
 ```text
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
 ```
 
-## Support
+## Purpose
 
-- What the project needs is a star :star: from you, so make sure before you use the project you should star it in order to remove some message that are appended from the template :heart:
+Actually if you don't know Github released a feature Github README profile (they say a Secret Repository :smile:). And I think this project will help to give you additional content to include or show for your Github README Profile.
 
 ## Ratings
 
-- The table for the Rating Range, Letter Sign and Color.
+The table for the Rating Range, Letter Sign and Color.
 
 | Rating Range | Letter Sign | Color |
 | ---- | ---- | ---- |
@@ -55,11 +59,15 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 | 30 - 21 | B | #ed962f |
 | 20 - 0 | C | #b30000 |
 
-- Using some of the common statistic formula we are able to calculate the final ratings. See the code implementation [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js)
+The ratings scale are based on this [Academic Grading In Japan](https://en.wikipedia.org/wiki/Academic_grading_in_Japan) I was fascinated with that ("S" rarely given :joy:) and also we used some of the common formula in Statistic like (Mean, SD, Z-Score, etc.) to get the final scores based on the 4 data sets (Commits, Pull Requests, Issues and Code Reviews). If you want check the technical details of it you can visit this file [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js).
 
 ## Layout Customization
 
-- This features will be release soon. We will unlock the layout customization depending on what you like :heart:.
+This features will be add soon. We will unlock the layout customization depending on what you like :heart:.
+
+## Support
+
+Probably you will notice that the generated template has a message below, we added this feature in order to preserved the origin of the project. If you want to remove this just make sure you give a star in the project and after a couple minutes this will disappear (we need this minutes because we implemented a caching for each generated template).
 
 ## License
 
