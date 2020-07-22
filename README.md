@@ -38,6 +38,10 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
 ```
 
+## Support
+
+- What the project needs is a star :star: from you, so make sure before you use the project you should star it in order to remove some message that are appended from the template :heart:
+
 ## Ratings
 
 - The table for the Rating Range, Letter Sign and Color.

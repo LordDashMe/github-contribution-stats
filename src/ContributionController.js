@@ -17,21 +17,14 @@ const ContributionController = async (username, isStargazer) => {
   const stats = await FetchStats(username);
 
   const computedContribution = ComputeContributions(stats.data.user.contributionsCollection);
-
-  const thisYear = computedContribution.thisYear;
-  const thisMonth = computedContribution.thisMonth;
-  const thisWeek = computedContribution.thisWeek;
-  const pullRequests = computedContribution.pullRequests;
-  const issues = computedContribution.issues;
-  const codeReviews = computedContribution.codeReviews;
   
   ContributionRatings.newInstance();
-  ContributionRatings.setThisYearCommits(thisYear);
-  ContributionRatings.setThisMonthCommits(thisMonth);
-  ContributionRatings.setThisWeekCommits(thisWeek);
-  ContributionRatings.setPullRequests(pullRequests);
-  ContributionRatings.setIssues(issues);
-  ContributionRatings.setCodeReviews(codeReviews);
+  ContributionRatings.setThisYearCommits(computedContribution.thisYear);
+  ContributionRatings.setThisMonthCommits(computedContribution.thisMonth);
+  ContributionRatings.setThisWeekCommits(computedContribution.thisWeek);
+  ContributionRatings.setPullRequests(computedContribution.pullRequests);
+  ContributionRatings.setIssues(computedContribution.issues);
+  ContributionRatings.setCodeReviews(computedContribution.codeReviews);
   ContributionRatings.calculate();
 
   return CardTemplates(
@@ -39,12 +32,12 @@ const ContributionController = async (username, isStargazer) => {
     ContributionRatings.getLetterSign(), 
     ContributionRatings.getColor(), 
     ContributionRatings.getProgress(),
-    thisYear, 
-    thisMonth, 
-    thisWeek, 
-    pullRequests, 
-    issues, 
-    codeReviews
+    computedContribution.thisYear, 
+    computedContribution.thisMonth, 
+    computedContribution.thisWeek, 
+    computedContribution.pullRequests, 
+    computedContribution.issues, 
+    computedContribution.codeReviews
   );
 
 };
