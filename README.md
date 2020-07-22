@@ -49,11 +49,11 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
 | Rating Range | Letter Sign | Color |
 | ---- | ---- | ---- |
 | 100 - 98 | S | #7d00b3 |
-| 97 - 75 | A+ | #1eb300 |
-| 74 - 65 | A | #2fa0ed |
-| 64 - 55 | B+ | #2f74ed |
-| 54 - 40 | B | #ed962f |
-| 39 - 0 | C | #b30000 |
+| 97 - 81 | A+ | #1eb300 |
+| 80 - 41 | A | #2fa0ed |
+| 40 - 31 | B+ | #2f74ed |
+| 30 - 21 | B | #ed962f |
+| 20 - 0 | C | #b30000 |
 
 - Using some of the common statistic formula we are able to calculate the final ratings. See the code implementation [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js)
 
