@@ -67,7 +67,7 @@ This features will be add soon. We will unlock the layout customization dependin
 
 ## Support
 
-Probably you will notice that the generated template has a message below, we added this feature in order to preserve the origin of the project. If you want to remove this just make sure you give a star in the project and after a couple minutes this will disappear (we need this minutes because we implemented a caching for each generated template).
+Probably you will notice that the generated template has a message below, we added this feature in order to preserve the origin of the project. If you want to remove this just make sure you give a star in the project and after a couple of minutes this will disappear (we need this minutes because we implemented a caching for each generated template).
 
 This project just only need a **star** :star: from you! :heart:
 
