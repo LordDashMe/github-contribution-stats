@@ -44,7 +44,7 @@ To use, just copy paste this into your markdown content and replace the value of
 
 ## Purpose
 
-Actually if you don't know Github released a feature Github README profile (they say a Secret Repository :smile:). And I think this project will help you to give additional content to include or show for your Github README Profile.
+Actually if you don't know Github released a feature Github README profile (they say a Secret Repository :smile:). And I think this project will help you to give additional content for your Github README Profile.
 
 ## Ratings
 
