@@ -36,7 +36,7 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
   
   - [avosa](https://github.com/avosa)
   
-  - And you! If ever you are using it right now please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: in order to add you in this list.
+  - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: in order to add you also in this list.
 
 ## Usage
 
