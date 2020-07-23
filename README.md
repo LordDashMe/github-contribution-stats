@@ -33,6 +33,10 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
   - [matrixjnr](https://github.com/matrixjnr)
   
   - [molleer](https://github.com/molleer)
+  
+  - [avosa](https://github.com/avosa)
+  
+  - And you! If ever you are using it right now please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: in order to add you in this list.
 
 ## Usage
 
