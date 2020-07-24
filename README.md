@@ -36,6 +36,12 @@ Get your dynamically generated Github Contribution Stats! :chart_with_upwards_tr
   
   - [avosa](https://github.com/avosa)
   
+  - [debauchery1st](https://github.com/debauchery1st)
+  
+  - [kpace622](https://github.com/kpace622)
+  
+  - [eric-santos](https://github.com/eric-santos)
+  
   - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: in order to add you also in this list.
 
 ## Usage
