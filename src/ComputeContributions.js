@@ -53,7 +53,7 @@ const computeThisMonthCommits = (contributions) => {
     weeksLength--;
     monthWeeks--;
 
-  } while (monthWeeks <= 0);
+  } while (monthWeeks > 0);
 
   return collectTotalCommits;
 
