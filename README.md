@@ -44,8 +44,14 @@
   - [debauchery1st](https://github.com/debauchery1st)
   
   - [kpace622](https://github.com/kpace622)
+
+  - [Ankcorn](https://github.com/Ankcorn)
   
   - [eric-santos](https://github.com/eric-santos)
+
+  - [henriquehbr](https://github.com/henriquehbr)
+
+  - [imvieira](https://github.com/imvieira)
   
   - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: in order to add you also in this list.
 
