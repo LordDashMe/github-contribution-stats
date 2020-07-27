@@ -9,7 +9,7 @@
   </a>
 </p>
 <p align="center">
-  <img src="https://github.githubassets.com/images/mona-whisper.gif" />
+  <img src="https://github.githubassets.com/images/mona-whisper.gif" /> A treasure! :sparkles:
 </p>
 
 ## Demo
