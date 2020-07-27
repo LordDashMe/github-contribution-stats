@@ -27,7 +27,7 @@ const ContributionRatings = {
       max: 100,
       min: 98,
       letterSign: 'S',
-      color: '#7d00b3',
+      color: '#eacb2f',
       progress: '0'
     },
     {
@@ -51,7 +51,7 @@ const ContributionRatings = {
       max: 40,
       min: 31,
       letterSign: 'B+',
-      color: '#2f74ed',
+      color: '#ed962f',
       progress: '120'
     },
     {
@@ -59,7 +59,7 @@ const ContributionRatings = {
       max: 30,
       min: 21,
       letterSign: 'B',
-      color: '#ed962f',
+      color: '#7d00b3',
       progress: '140'
     },
     {
@@ -72,7 +72,7 @@ const ContributionRatings = {
     }
   ],
   metrics: {
-    SIGMA: 500,
+    SIGMA: 450,
     THIS_YEAR_COMMITS: 0.6,
     THIS_MONTH_COMMITS: 0.8,
     THIS_WEEK_COMMITS: 1,
