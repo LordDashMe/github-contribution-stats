@@ -45,7 +45,7 @@ const mockContributionCollection = {
         "totalWeeks": 4
       },
       {
-        "totalWeeks": 2
+        "totalWeeks": 3
       }
     ],
     "weeks": [
@@ -100,6 +100,14 @@ const mockContributionCollection = {
             "contributionCount": 1
           }
         ]
+      },
+      {
+        "firstDay": "2019-07-16",
+        "contributionDays": [
+          {
+            "contributionCount": 0
+          }
+        ]
       }
     ]
   }
@@ -112,6 +120,7 @@ describe('Tests for Compute Commits.', () => {
     const computedContribution = ComputeContributions(mockContributionCollection);
 
     expect(computedContribution.thisYear).toBe(1418);
+    expect(computedContribution.thisMonth).toBe(50);
     expect(computedContribution.pullRequests).toBe(2);
     expect(computedContribution.issues).toBe(0);
     expect(computedContribution.codeReviews).toBe(0);
