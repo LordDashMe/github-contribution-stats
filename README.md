@@ -8,6 +8,9 @@
     <img src="https://img.shields.io/coveralls/LordDashMe/github-contribution-stats/master.svg?style=for-the-badge" />
   </a>
 </p>
+<p align="center">
+  <img src="https://github.githubassets.com/images/mona-whisper.gif" />
+</p>
 
 ## Demo
 
@@ -28,6 +31,8 @@
 - Special metion for those who are currently using it right now for their Github README profile :smile: :tada:
 
   - [chiedev](https://github.com/chiedev)
+  
+  - [gamersforever1695](https://github.com/gamersforever1695)
   
   - [vitordelfino](https://github.com/vitordelfino)
 
