@@ -47,7 +47,7 @@ const CardTemplates = (
     <style>
 
       .title {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+        font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
         font-size: 20px;
         font-weight: 700; 
         fill: #000; 
@@ -60,7 +60,7 @@ const CardTemplates = (
       }
       
       .contribution-stats { 
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+        font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
         font-weight: 400;
         font-size: 14px;
         fill: #333;
@@ -69,7 +69,7 @@ const CardTemplates = (
       ${(!isStargazer ? '.repo-origin {font-size: 10px;}' : '')}
       
       .rating-letter-sign { 
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+        font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
         font-size: 38px;
         font-weight: 700; 
         fill: ${ratingsColor};
@@ -97,7 +97,7 @@ const CardTemplates = (
       
       .bolder { 
         font-weight: 700;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+        font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
       }
 
       @keyframes scaleIn {
