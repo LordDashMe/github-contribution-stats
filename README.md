@@ -97,7 +97,7 @@ This features will be add soon. We will unlock the layout customization dependin
 
 Probably you notice that the generated template has a message below the stats, we added this feature in order to preserve the origin of the project. If you want to remove this just make sure you star the project and after a couple of minutes this will be disappear, we need this minutes because we implemented a caching for each generated template so the delay is expected but not so much :blush:. If ever you encounter an issue we'll be glad if you file it here [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues).
 
-This project only need a **star** :star: from you! :heart:
+This project only need a **star** :star: from you! :heart: if you ever enjoyed this project, share it to your friends who are also active in github :handshake:.
 
 ## License
 
