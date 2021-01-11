@@ -17,22 +17,24 @@ const { catIcon, commitIcon, pullRequestIcon, issuesIcon, codeIcon } = require('
  * 
  * @author Joshua Clifford Reyes <reyesjoshuaclifford@gmail.com>
  * 
- * @param {Boolean} isStargazer      Flag if the username is a stargazer of the repository.
- * @param {String} ratingsLetterSign The ratings letter sign counter part.
- * @param {String} ratingsColor      The ratings color counter part.
- * @param {String} ratingsProgress   The ratings progress counter part.
- * @param {Number} thisYearCommits   The total this year commits.
- * @param {Number} thisMonthCommits  The total this month commits.
- * @param {Number} thisWeekCommits   The total this week commits.
- * @param {Number} pullRequests      The total pull requests.
- * @param {Number} issues            The total issues filed.
- * @param {Number} codeReviews       The total code reviews.
+ * @param {Boolean} isStargazer       Flag if the username is a stargazer of the repository.
+ * @param {String} ratingsLetterSign  The ratings letter sign counter part.
+ * @param {String} ratingsTranslation The ratings translation counter part.
+ * @param {String} ratingsColor       The ratings color counter part.
+ * @param {String} ratingsProgress    The ratings progress counter part.
+ * @param {Number} thisYearCommits    The total this year commits.
+ * @param {Number} thisMonthCommits   The total this month commits.
+ * @param {Number} thisWeekCommits    The total this week commits.
+ * @param {Number} pullRequests       The total pull requests.
+ * @param {Number} issues             The total issues filed.
+ * @param {Number} codeReviews        The total code reviews.
  * 
  * @return {String}
  */
 const CardTemplates = (
   isStargazer,
-  ratingsLetterSign, 
+  ratingsLetterSign,
+  ratingsTranslation,
   ratingsColor, 
   ratingsProgress, 
   thisYearCommits, 
@@ -206,18 +208,28 @@ const CardTemplates = (
       </g>
     </svg>
   `;
+  
+  const remarksTemplate = `
+    <svg x="-6" y="224">
+      <g class="item" style="animation-delay: 1600ms" transform="translate(25, 15)">
+        <text class="contribution-stats repo-origin" x="0" y="0">Remarks: The score rating is ${ratingsTranslation}</text>
+      </g>
+    </svg>
+  `;
 
   const originTemplate = `
-    <svg x="-6" y="225">
+    <svg x="-6" y="240">
       <g class="item" style="animation-delay: 1600ms" transform="translate(25, 15)">
         <text class="contribution-stats repo-origin" x="0" y="0">Visit: https://github.com/lorddashme/github-contribution-stats</text>
         <text class="contribution-stats repo-origin" x="0" y="15">To support the project and remove this message,</text>
-        <text class="contribution-stats repo-origin" x="0" y="25">simply add star to the repository.</text>
+        <text class="contribution-stats repo-origin" x="0" y="25">simply add star to the repository, once done it might takes</text>
+        <text class="contribution-stats repo-origin" x="0" y="35">a minutes or hours to remove this message on the template</text>
+        <text class="contribution-stats repo-origin" x="0" y="45">because of the caching implemented to optimize the service.</text>
       </g>
-    </svg>  
+    </svg> 
   `;
 
-  const cardHeightTemplate = (!isStargazer ? '285' : '240');
+  const cardHeightTemplate = (!isStargazer ? '320' : '260');
 
   return (`
     <svg width="328" height="${cardHeightTemplate}" viewBox="0 0 328 ${cardHeightTemplate}" xmlns="http://www.w3.org/2000/svg">
@@ -233,7 +245,9 @@ const CardTemplates = (
       ${pullRequestsTemplate}
       ${issuesTemplate}
       ${codeReviewTemplate}
-
+      
+      ${remarksTemplate}
+    
       ${(!isStargazer ? originTemplate : '')}
     </svg>
   `);
