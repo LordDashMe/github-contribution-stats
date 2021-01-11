@@ -5,7 +5,7 @@ services:
     stdin_open: true
     image: 'node:10-alpine'
     volumes:
-      - '${DOCKER_HOST_SOURCE_PATH}:/var/www/site/'
+      - '.:/var/www/site/'
 networks:
   default:
     external:

@@ -68,6 +68,10 @@ const CardTemplates = (
         fill: #333;
       }
 
+      .remarks {
+        font-size: 11px;
+      }
+
       ${(!isStargazer ? '.repo-origin {font-size: 10px;}' : '')}
       
       .rating-letter-sign { 
@@ -212,7 +216,7 @@ const CardTemplates = (
   const remarksTemplate = `
     <svg x="-6" y="224">
       <g class="item" style="animation-delay: 1600ms" transform="translate(25, 15)">
-        <text class="contribution-stats repo-origin" x="0" y="0">Remarks: The score rating is ${ratingsTranslation}</text>
+        <text class="contribution-stats remarks" x="0" y="0">Remarks: The score rating is ${ratingsTranslation}</text>
       </g>
     </svg>
   `;
