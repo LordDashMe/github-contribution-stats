@@ -29,7 +29,8 @@ const ContributionController = async (username, isStargazer) => {
 
   return CardTemplates(
     isStargazer,
-    ContributionRatings.getLetterSign(), 
+    ContributionRatings.getLetterSign(),
+    ContributionRatings.getTranslation(),
     ContributionRatings.getColor(), 
     ContributionRatings.getProgress(),
     computedContribution.thisYear, 
