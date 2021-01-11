@@ -27,6 +27,7 @@ const ContributionRatings = {
       max: 100,
       min: 98,
       letterSign: 'S',
+      translation: 'Excellent!',
       color: '#eacb2f',
       progress: '0'
     },
@@ -35,6 +36,7 @@ const ContributionRatings = {
       max: 97,
       min: 81,
       letterSign: 'A+',
+      translation: 'Very Good!',
       color: '#1eb300',
       progress: '50'
     },
@@ -43,6 +45,7 @@ const ContributionRatings = {
       max: 80,
       min: 41,
       letterSign: 'A',
+      translation: 'Very Good!',
       color: '#2fa0ed',
       progress: '100'
     },
@@ -51,6 +54,7 @@ const ContributionRatings = {
       max: 40,
       min: 31,
       letterSign: 'B+',
+      translation: 'Good!',
       color: '#ed962f',
       progress: '120'
     },
@@ -59,6 +63,7 @@ const ContributionRatings = {
       max: 30,
       min: 21,
       letterSign: 'B',
+      translation: 'Good!',
       color: '#7d00b3',
       progress: '140'
     },
@@ -67,6 +72,7 @@ const ContributionRatings = {
       max: 20,
       min: 0,
       letterSign: 'C',
+      translation: 'Average.',
       color: '#b30000',
       progress: '170'
     }
@@ -273,6 +279,15 @@ const ContributionRatings = {
    */
   getLetterSign: () => {
     return ContributionRatings.ratings.letterSign;
+  },
+  
+  /**
+   * The getter method for the property ratings translation.
+   * 
+   * @return {String}
+   */
+  getTranslation: () => {
+    return ContributionRatings.ratings.translation;
   },
 
   /**
