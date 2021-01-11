@@ -140,14 +140,14 @@ Actually if you don't know Github released a feature Github README profile (they
 
 The table for the Rating Range, Letter Sign and Color.
 
-| Rating Range | Letter Sign | Color |
-| ---- | ---- | ---- |
-| 100 - 98 | S | #eacb2f |
-| 97 - 81 | A+ | #1eb300 |
-| 80 - 41 | A | #2fa0ed |
-| 40 - 31 | B+ | #ed962f |
-| 30 - 21 | B | #7d00b3 |
-| 20 - 0 | C | #b30000 |
+| Rating Range | Letter Sign | Translation | Color |
+| ---- | ---- | ---- | ---- |
+| 100 - 98 | S | Excellent | #eacb2f |
+| 97 - 81 | A+ | Very Good | #1eb300 |
+| 80 - 41 | A | Very Good | #2fa0ed |
+| 40 - 31 | B+ | Good | #ed962f |
+| 30 - 21 | B | Good | #7d00b3 |
+| 20 - 0 | C | Average | #b30000 |
 
 The ratings scale are based on this [Academic Grading In Japan](https://en.wikipedia.org/wiki/Academic_grading_in_Japan) I was fascinated with that ("S" rarely given :joy:) and also we used some of the common formula in Statistic like (Mean, SD, Z-Score, etc.) to get the final scores based on the 4 data sets (Commits, Pull Requests, Issues and Code Reviews). If you want check the technical details of it you can visit this file [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js).
 
