@@ -139,6 +139,8 @@
   - [MRDGH2821](https://github.com/MRDGH2821)
 
   - [Cyranium](https://github.com/Cyranium)
+
+  - [3ncrypt3db0t](https://github.com/3ncrypt3db0t)
   
   - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: we are glad to also add you in the list.
 
