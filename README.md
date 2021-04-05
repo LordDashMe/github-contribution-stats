@@ -162,7 +162,7 @@ The table for the Rating Range, Letter Sign and Color.
 
 | Rating Range | Letter Sign | Translation | Color |
 | ---- | ---- | ---- | ---- |
-| 100 - 98 | S | Excellent | #eacb2f |
+| 100 - 98 | S | Excellent | <span style="color:#eacb2f">#eacb2f</span> |
 | 97 - 81 | A+ | Very Good | #1eb300 |
 | 80 - 41 | A | Very Good | #2fa0ed |
 | 40 - 31 | B+ | Good | #ed962f |
