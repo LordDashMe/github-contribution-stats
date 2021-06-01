@@ -157,6 +157,8 @@
   - [dumidu1998](https://github.com/dumidu1998)
 
   - [renol767](https://github.com/renol767)
+
+  - [whoisbaby](https://github.com/whoisbaby)
   
   - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: we are glad to also add you in the list.
 
