@@ -28,7 +28,46 @@
 
     [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=fabpot)](https://github.com/LordDashMe/github-contribution-stats/)
 
-- Special mention for those who are currently using it right now with their Github README profile :smile: :tada:
+## Usage
+
+To use, just copy paste this into your markdown content and replace the value of the **?username=** URL parameter based on your Github username.
+
+```text
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
+```
+
+## Purpose
+
+Actually if you don't know Github released a feature [Github README profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme) (they say it a Secret Repository :smile:) and I think this project will help you to give an additional content for your Github README profile.
+
+## Ratings
+
+The table for the Rating Range, Letter Sign and Color.
+
+| Rating Range | Letter Sign | Translation | Color |
+| ---- | ---- | ---- | ---- |
+| 100 - 98 | S | Excellent | #eacb2f |
+| 97 - 81 | A+ | Very Good | #1eb300 |
+| 80 - 41 | A | Very Good | #2fa0ed |
+| 40 - 31 | B+ | Good | #ed962f |
+| 30 - 21 | B | Good | #7d00b3 |
+| 20 - 0 | C | Average | #b30000 |
+
+The ratings scale are based on this [Academic Grading In Japan](https://en.wikipedia.org/wiki/Academic_grading_in_Japan) I was fascinated with that ("S" rarely given :joy:) and also we used some of the common formula in Statistic like (Mean, SD, Z-Score, etc.) to get the final scores based on the 4 data sets (Commits, Pull Requests, Issues and Code Reviews). If you want check the technical details of it you can visit this file [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js).
+
+## Layout Customization
+
+This features will be add soon. We will unlock the layout customization depending on what you like :heart:.
+
+## Support
+
+Probably you notice that the generated template has a remarks or message below the stats, we added this feature in order to preserve the origin of the project. If you want to remove this just make sure you star the project (this repo) and after a couple of minutes this will be disappear, we need this minutes because we implemented a caching for each generated template so the delay is expected but not so much :blush:. If ever you encounter an issue we'll be glad if you tell us here [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues).
+
+This project is only need a **star** :star: from you! :heart: if you ever enjoyed this project, share it to your friends who are also active in github :handshake:.
+
+## Special Mention :smile: :tada:
+
+For those who are currently using it right now with their Github README profile:
 
   - [chiedev](https://github.com/chiedev)
   
@@ -165,43 +204,6 @@
   - [trickypr](https://github.com/trickypr)
   
   - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: we are glad to also add you in the list.
-
-## Usage
-
-To use, just copy paste this into your markdown content and replace the value of the **?username=** URL parameter based on your Github username.
-
-```text
-[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
-```
-
-## Purpose
-
-Actually if you don't know Github released a feature [Github README profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme) (they say it a Secret Repository :smile:) and I think this project will help you to give an additional content for your Github README profile.
-
-## Ratings
-
-The table for the Rating Range, Letter Sign and Color.
-
-| Rating Range | Letter Sign | Translation | Color |
-| ---- | ---- | ---- | ---- |
-| 100 - 98 | S | Excellent | #eacb2f |
-| 97 - 81 | A+ | Very Good | #1eb300 |
-| 80 - 41 | A | Very Good | #2fa0ed |
-| 40 - 31 | B+ | Good | #ed962f |
-| 30 - 21 | B | Good | #7d00b3 |
-| 20 - 0 | C | Average | #b30000 |
-
-The ratings scale are based on this [Academic Grading In Japan](https://en.wikipedia.org/wiki/Academic_grading_in_Japan) I was fascinated with that ("S" rarely given :joy:) and also we used some of the common formula in Statistic like (Mean, SD, Z-Score, etc.) to get the final scores based on the 4 data sets (Commits, Pull Requests, Issues and Code Reviews). If you want check the technical details of it you can visit this file [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js).
-
-## Layout Customization
-
-This features will be add soon. We will unlock the layout customization depending on what you like :heart:.
-
-## Support
-
-Probably you notice that the generated template has a remarks or message below the stats, we added this feature in order to preserve the origin of the project. If you want to remove this just make sure you star the project (this repo) and after a couple of minutes this will be disappear, we need this minutes because we implemented a caching for each generated template so the delay is expected but not so much :blush:. If ever you encounter an issue we'll be glad if you tell us here [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues).
-
-This project is only need a **star** :star: from you! :heart: if you ever enjoyed this project, share it to your friends who are also active in github :handshake:.
 
 ## License
 
