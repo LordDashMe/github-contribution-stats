@@ -28,7 +28,7 @@ const FetchStats = async (username) => {
       url: 'https://api.github.com/graphql',
       method: 'POST',
       headers: {
-        Authorization: `bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`
+        Authorization: `token ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`
       },
       data: {
         query: `query {
