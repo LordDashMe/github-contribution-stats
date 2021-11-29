@@ -1,6 +1,6 @@
 module.exports = {
   "roots": [
-    "<rootDir>/tests/",
+    "<rootDir>/tests/src/",
   ],
   "cacheDirectory": "jest-cache/",
   "collectCoverage": true,
