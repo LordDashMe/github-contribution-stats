@@ -5,7 +5,7 @@ module.exports = {
   "cacheDirectory": "jest-cache/",
   "collectCoverage": true,
   "collectCoverageFrom": [
-    "api/*",
+    "!api/*",
     "src/*",
     "!**/node_modules/**",
   ],
