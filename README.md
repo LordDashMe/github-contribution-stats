@@ -79,14 +79,6 @@ For those who are currently using it right now with their Github README profile:
   
   - [mzaini30](https://github.com/mzaini30)
   
-  - [matrixjnr](https://github.com/matrixjnr)
-  
-  - [molleer](https://github.com/molleer)
-  
-  - [avosa](https://github.com/avosa)
-  
-  - [debauchery1st](https://github.com/debauchery1st)
-  
   - [kpace622](https://github.com/kpace622)
 
   - [Ankcorn](https://github.com/Ankcorn)
