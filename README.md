@@ -230,6 +230,8 @@ For those who are currently using it right now with their Github README profile:
   - [ejaz4](https://github.com/ejaz4)
 
   - [rubengmurray](https://github.com/rubengmurray)
+
+  - [Timguru](https://github.com/Timguru)
   
   - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: we are glad to also add you in the list.
 
