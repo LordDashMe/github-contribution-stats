@@ -238,6 +238,8 @@ For those who are currently using it right now with their Github README profile:
   - [AndrewMbugua](https://github.com/AndrewMbugua)
 
   - [yashshrivastavaa](https://github.com/yashshrivastavaa)
+
+  - [igarridot](https://github.com/igarridot)
   
   - And you! If ever you are using it right now and you are not in the list please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues) :blush: we are glad to also add you in the list.
 
