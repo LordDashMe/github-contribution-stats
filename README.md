@@ -2,10 +2,10 @@
 <p align="center">Get your dynamically generated Github Contribution Stats! :chart_with_upwards_trend: :calendar:</p>
 <p align="center">
   <a href="https://travis-ci.org/LordDashMe/github-contribution-stats">
-    <img src="https://img.shields.io/travis/LordDashMe/github-contribution-stats/master.svg?style=for-the-badge" />
+    <img src="https://img.shields.io/travis/LordDashMe/github-contribution-stats?style=for-the-badge" />
   </a>
   <a href="https://coveralls.io/github/LordDashMe/github-contribution-stats?branch=master">
-    <img src="https://img.shields.io/coveralls/LordDashMe/github-contribution-stats/master.svg?style=for-the-badge" />
+    <img src="https://img.shields.io/coveralls/github/LordDashMe/github-contribution-stats?style=for-the-badge" />
   </a>
 </p>
 <p align="center">
