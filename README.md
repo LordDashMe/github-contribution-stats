@@ -53,7 +53,7 @@ The table for the Rating Range, Letter Sign and Color.
 | 30 - 21 | B | Good | #7d00b3 |
 | 20 - 0 | C | Average | #b30000 |
 
-The ratings scale are based on [Academic Grading In Japan](https://en.wikipedia.org/wiki/Academic_grading_in_Japan), I was fascinated with that ("S" rarely given :joy:). Also we used some of the common formula in Statistic like (Mean, SD, Z-Score, etc.) to get the final scores based on the 4 data sets (Commits, Pull Requests, Issues and Code Reviews). If you want check the technical details of it you can check this file [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js).
+The ratings scale are based on [Academic Grading In Japan](https://en.wikipedia.org/wiki/Academic_grading_in_Japan), I was fascinated with that ("S" rarely given :joy:). Also we used some of the common formula in Statistic like (Mean, SD, Z-Score, etc.) to get the final scores based on the 4 data sets (Commits, Pull Requests, Issues and Code Reviews). If you want to check the technical details about the ratings, here is the file [ContributionRatings.js](https://github.com/LordDashMe/github-contribution-stats/blob/master/src/ContributionRatings.js).
 
 ## Layout Customization
 
