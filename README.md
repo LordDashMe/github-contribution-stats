@@ -73,12 +73,6 @@ For those who are currently using it right now with their Github README profile:
   
   - [gamersforever1695](https://github.com/gamersforever1695)
   
-  - [vitordelfino](https://github.com/vitordelfino)
-
-  - [0000marcell](https://github.com/0000marcell)
-  
-  - [mzaini30](https://github.com/mzaini30)
-  
   - [kpace622](https://github.com/kpace622)
 
   - [Ankcorn](https://github.com/Ankcorn)
