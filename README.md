@@ -76,8 +76,6 @@ For those who are currently using it right now with their Github README profile:
   - [kpace622](https://github.com/kpace622)
 
   - [Ankcorn](https://github.com/Ankcorn)
-  
-  - [eric-santos](https://github.com/eric-santos)
 
   - [henriquehbr](https://github.com/henriquehbr)
 
