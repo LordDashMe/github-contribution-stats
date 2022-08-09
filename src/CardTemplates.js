@@ -216,7 +216,7 @@ const CardTemplates = (
   const remarksTemplate = `
     <svg x="-6" y="224">
       <g class="item" style="animation-delay: 1600ms" transform="translate(25, 15)">
-        <text class="contribution-stats remarks" x="0" y="0">Remarks: The contribution stats score rating is ${ratingsTranslation}</text>
+        <text class="contribution-stats remarks" x="0" y="0">Remarks: The contributor stats score rating is ${ratingsTranslation}</text>
       </g>
     </svg>
   `;
