@@ -226,8 +226,8 @@ const CardTemplates = (
       <g class="item" style="animation-delay: 1600ms" transform="translate(25, 15)">
         <text class="contribution-stats repo-origin" x="0" y="0">Visit: https://github.com/lorddashme/github-contribution-stats</text>
         <text class="contribution-stats repo-origin" x="0" y="15">To support the project and remove this message,</text>
-        <text class="contribution-stats repo-origin" x="0" y="25">simply add star to the repository, once done it might takes</text>
-        <text class="contribution-stats repo-origin" x="0" y="35">a minutes or hours to remove this message on the template</text>
+        <text class="contribution-stats repo-origin" x="0" y="25">simply add a star to the repository. Once done, it may take a few</text>
+        <text class="contribution-stats repo-origin" x="0" y="35">minutes or hours to remove this message from the template</text>
         <text class="contribution-stats repo-origin" x="0" y="45">because of the caching implemented to optimize the service.</text>
       </g>
     </svg> 
