@@ -57,13 +57,13 @@ The rating scale is based on the [academic grading system](https://en.wikipedia
 
 ## Layout Customization
 
-This features will be add soon. We will unlock the layout customization depending on what you like :heart:.
+These features will be added soon. We will unlock the layout customization depending on what you like :heart:.
 
 ## Support
 
-Probably you notice that the generated template has a remarks or message below the stats, we added this feature in order to preserve the origin of the project. If you want to remove this just make sure you star the project (this repo) and after a couple of minutes this will be disappear, we need this minutes because we implemented a caching for each generated template so the delay is expected but not so much :blush:. If ever you encounter an issue we'll be glad if you tell us here [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues).
+You probably notice that the generated template has a comment or message below the stats. We added this feature in order to preserve the origin of the project. If you want to remove this, just make sure you star the project (this repo) and after a couple of minutes this will disappear. We need these minutes because we implemented caching for each generated template, so the delay is expected but not so much :blush:. If ever you encounter an issue, we'll be glad if you tell us here in [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues).
 
-This project is only need a **star** :star: from you! :heart: if you ever enjoyed this project, share it to your friends who are also active in github :handshake:.
+This project only needs a **star** :star: from you! :heart: If you ever enjoyed this project, share it with your friends who are also active on github :handshake:.
 
 ## Special Mention :smile: :tada:
 
