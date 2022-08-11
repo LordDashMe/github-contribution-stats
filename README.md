@@ -30,7 +30,7 @@
 
 ## Usage
 
-To use, just copy paste this into your markdown content and replace the value of the **?username=** URL parameter based on your Github username.
+Simply copy and paste this into your markdown content, replacing the value of the URL parameter **?username=** with your Github username.
 
 ```text
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=lorddashme)](https://github.com/LordDashMe/github-contribution-stats/)
