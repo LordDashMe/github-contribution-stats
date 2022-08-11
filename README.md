@@ -14,7 +14,7 @@
 
 ## Demo
 
-- See the sample usage with some of our famous open source contributor :trophy:.
+- See an example of usage with some of our well-known open source contributors. :trophy:.
 
   - [Miško Hevery](https://github.com/mhevery)
 
