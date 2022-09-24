@@ -16,13 +16,13 @@
 
 - See an example of usage with some of our well-known open source contributors. :trophy:.
 
-  - [Miško Hevery](https://github.com/mhevery)
+  - [Linus Torvalds](https://github.com/torvalds)
 
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mhevery)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=torvalds)](https://github.com/LordDashMe/github-contribution-stats/)
 
-  - [Taylor Otwell](https://github.com/taylorotwell)
+  - [Guido van Rossum](https://github.com/gvanrossum)
 
-    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=taylorotwell)](https://github.com/LordDashMe/github-contribution-stats/)
+    [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=gvanrossum)](https://github.com/LordDashMe/github-contribution-stats/)
 
   - [Fabien Potencier](https://github.com/fabpot)
 
