@@ -14,7 +14,7 @@
 
 ## Demo
 
-- See an example of usage with some of our well-known open source contributors. :trophy:.
+- See an example of usage with some of our well-known open source contributors. :trophy:
 
   - [Linus Torvalds](https://github.com/torvalds)
 
@@ -39,6 +39,8 @@ Simply copy and paste this into your markdown content, replacing the value of th
 ## Purpose
 
 Actually, if you don't know, Github released a feature called [Github README profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme) (they call it a Secret Repository :smile:) and I think this project will help you to give additional content for your Github README profile.
+
+<p align="center"><img width="80" height="80" src="https://github.githubassets.com/images/mona-loading-default.gif" alt="mona loading default" /></p>
 
 ## Ratings
 
