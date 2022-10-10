@@ -258,6 +258,8 @@ For those who are currently using it right now with their Github README profile:
   - [Tukhtamurodov-Sardorbek](https://github.com/Tukhtamurodov-Sardorbek)
 
   - [Taufik-H](https://github.com/Taufik-H)
+  
+  - [ajtudela](https://github.com/ajtudela)
 
   - And you! If you are using it right now and you are not on the list, please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues). We are delighted to include you on the list as well.
 
