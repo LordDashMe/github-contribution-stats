@@ -257,8 +257,6 @@ For those who are currently using it right now with their Github README profile:
   
   - [Tukhtamurodov-Sardorbek](https://github.com/Tukhtamurodov-Sardorbek)
 
-  - [Taufik-H](https://github.com/Taufik-H)
-
   - [ajtudela](https://github.com/ajtudela)
 
   - [Kingssxd](https://github.com/Kingssxd)
