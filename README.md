@@ -83,8 +83,6 @@ For those who are currently using it right now with their Github README profile:
   
   - [Ahmad-Sawalqeh](https://github.com/Ahmad-Sawalqeh)
   
-  - [anjana-dodampe](https://github.com/anjana-dodampe)
-  
   - [KasperZutterman](https://github.com/KasperZutterman)
   
   - [Bruck1701](https://github.com/Bruck1701)
