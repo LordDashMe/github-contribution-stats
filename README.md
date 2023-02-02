@@ -70,8 +70,6 @@ This project only needs a **star** :star: from you! :heart: If you ever enjoyed 
 ## Special Mention :smile: :tada:
 
 For those who are currently using it right now with their Github README profile:
-
-  - [chiedev](https://github.com/chiedev)
   
   - [gamersforever1695](https://github.com/gamersforever1695)
   
