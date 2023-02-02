@@ -89,8 +89,6 @@ For those who are currently using it right now with their Github README profile:
   
   - [westscz](https://github.com/westscz)
   
-  - [SebastianDarie](https://github.com/SebastianDarie)
-  
   - [Abhay2611](https://github.com/Abhay2611)
   
   - [tiarebalbi](https://github.com/tiarebalbi)
