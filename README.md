@@ -70,8 +70,6 @@ This project only needs a **star** :star: from you! :heart: If you ever enjoyed 
 ## Special Mention :smile: :tada:
 
 For those who are currently using it right now with their Github README profile:
-
-  - [chiedev](https://github.com/chiedev)
   
   - [gamersforever1695](https://github.com/gamersforever1695)
   
@@ -85,15 +83,11 @@ For those who are currently using it right now with their Github README profile:
   
   - [Ahmad-Sawalqeh](https://github.com/Ahmad-Sawalqeh)
   
-  - [anjana-dodampe](https://github.com/anjana-dodampe)
-  
   - [KasperZutterman](https://github.com/KasperZutterman)
   
   - [Bruck1701](https://github.com/Bruck1701)
   
   - [westscz](https://github.com/westscz)
-  
-  - [SebastianDarie](https://github.com/SebastianDarie)
   
   - [Abhay2611](https://github.com/Abhay2611)
   
@@ -126,8 +120,6 @@ For those who are currently using it right now with their Github README profile:
   - [Jalkhov](https://github.com/Jalkhov)
   
   - [PresentKim](https://github.com/PresentKim)
-  
-  - [Piotr-Grzybowski](https://github.com/Piotr-Grzybowski)
   
   - [graham22](https://github.com/graham22)
   
