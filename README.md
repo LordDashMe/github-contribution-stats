@@ -123,8 +123,6 @@ For those who are currently using it right now with their Github README profile:
   
   - [PresentKim](https://github.com/PresentKim)
   
-  - [Piotr-Grzybowski](https://github.com/Piotr-Grzybowski)
-  
   - [graham22](https://github.com/graham22)
   
   - [DamianSkrzypczak](https://github.com/DamianSkrzypczak)
