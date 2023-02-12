@@ -28,7 +28,8 @@ const { catIcon, commitIcon, pullRequestIcon, issuesIcon, codeIcon } = require('
  * @param {Number} pullRequests       The total pull requests.
  * @param {Number} issues             The total issues filed.
  * @param {Number} codeReviews        The total code reviews.
- * 
+ * @param {String} theme              Theme to render template.
+ *
  * @return {String}
  */
 const CardTemplates = (
@@ -42,17 +43,46 @@ const CardTemplates = (
   thisWeekCommits,
   pullRequests,
   issues,
-  codeReviews
+  codeReviews,
+  theme = 'light',
   ) => {
+
+  const colorSets = {
+      light: {
+        background: {
+            fill: '#efefef',
+            stroke: '#e1e4e8',
+        },
+        title: '#000',
+        stats: '#333',
+        rating: '#ababab',
+        icons: '#000',
+    },
+    dark: {
+        background: {
+            fill: '#343846',
+            stroke: '#171616',
+        },
+        title: '#deeeec',
+        stats: 'white',
+        rating: '#ababab',
+        icons: '#deeeec',
+    },
+  }
+
+  const colors = colorSets.hasOwnProperty(theme) ? colorSets[theme] : colorSets.light;
 
   const styles = `
     <style>
+       .icon {
+         fill: ${colors.icons};
+       }
 
       .title {
         font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
         font-size: 20px;
         font-weight: 700; 
-        fill: #000; 
+        fill: ${colors.title}; 
         animation: fadeIn 0.8s ease-in-out forwards;
       }
 
@@ -65,7 +95,7 @@ const CardTemplates = (
         font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
         font-weight: 400;
         font-size: 14px;
-        fill: #333;
+        fill: ${colors.stats};
       }
 
       .remarks {
@@ -83,7 +113,7 @@ const CardTemplates = (
       }
 
       .rating-circle-stroke {
-        stroke: #ababab;
+        stroke: ${colors.rating};
         stroke-width: 7.5;
         fill: none;
         opacity: 0.2;
@@ -137,7 +167,7 @@ const CardTemplates = (
   `;
 
   const cardBackgroundTemplate = `
-    <rect x="0.5" y="0.5" rx="5" width="327" height="100%" fill="#efefef" stroke="#e1e4e8" />
+    <rect x="0.5" y="0.5" rx="5" width="327" height="100%" fill="${colors.background.fill}" stroke="${colors.background.stroke}" />
   `;
 
   const ratingGraphTemplate = `
@@ -236,7 +266,7 @@ const CardTemplates = (
   const cardHeightTemplate = (!isStargazer ? '320' : '260');
 
   return (`
-    <svg width="328" height="${cardHeightTemplate}" viewBox="0 0 328 ${cardHeightTemplate}" xmlns="http://www.w3.org/2000/svg">
+    <svg width="328" height="${cardHeightTemplate}" viewBox="0 0 328 ${cardHeightTemplate}" ${theme ? `style="background-color: ${colors.background.fill}"` : ''} xmlns="http://www.w3.org/2000/svg">
       ${styles}
       ${cardBackgroundTemplate}
       

@@ -12,13 +12,13 @@ const { ContributionController } = require('../src/ContributionController');
 
 module.exports = async (req, res) => {
 
-  const { username } = req.query;
+  const { username, theme } = req.query;
   
   res.setHeader('Cache-Control', 'public, max-age=1800');
   res.setHeader('Content-Type', 'image/svg+xml');
 
   const isStargazer = await StargazersController(username);
-  const template = await ContributionController(username, isStargazer);
+  const template = await ContributionController(username, isStargazer, theme);
 
   res.send(template);
 };
