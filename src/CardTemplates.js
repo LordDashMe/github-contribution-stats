@@ -29,6 +29,7 @@ const { catIcon, commitIcon, pullRequestIcon, issuesIcon, codeIcon } = require('
  * @param {Number} issues             The total issues filed.
  * @param {Number} codeReviews        The total code reviews.
  * @param {String} theme              Theme to render template.
+ * @param {Object} themeOverrides     Overrides for theme colors.
  *
  * @return {String}
  */
@@ -36,41 +37,55 @@ const CardTemplates = (
   isStargazer,
   ratingsLetterSign,
   ratingsTranslation,
-  ratingsColor, 
-  ratingsProgress, 
-  thisYearCommits, 
-  thisMonthCommits, 
+  ratingsColor,
+  ratingsProgress,
+  thisYearCommits,
+  thisMonthCommits,
   thisWeekCommits,
   pullRequests,
   issues,
   codeReviews,
   theme = 'light',
-  ) => {
+  themeOverrides = {},
+) => {
 
   const colorSets = {
-      light: {
-        background: {
-            fill: '#efefef',
-            stroke: '#e1e4e8',
-        },
-        title: '#000',
-        stats: '#333',
-        rating: '#ababab',
-        icons: '#000',
+    light: {
+      background: {
+        fill: '#efefef',
+        stroke: '#e1e4e8',
+      },
+      title: '#000',
+      stats: '#333',
+      rating: '#ababab',
+      icons: '#000',
     },
     dark: {
-        background: {
-            fill: '#343846',
-            stroke: '#171616',
-        },
-        title: '#deeeec',
-        stats: 'white',
-        rating: '#ababab',
-        icons: '#deeeec',
+      background: {
+        fill: '#343846',
+        stroke: '#171616',
+      },
+      title: '#deeeec',
+      stats: 'white',
+      rating: '#ababab',
+      icons: '#deeeec',
     },
   }
 
-  const colors = colorSets.hasOwnProperty(theme) ? colorSets[theme] : colorSets.light;
+  const merge = (src, dst) => {
+    for (const key of Object.keys(src)) {
+      if (src[key] instanceof Object) {
+        src[key] =  merge(src[key], dst[key]);
+      } else {
+        src[key] = dst[key] || src[key];
+      }
+    }
+
+    return src;
+  }
+  const primaryTheme = colorSets.hasOwnProperty(theme) ? colorSets[theme] : colorSets.light;
+  const colors = merge(primaryTheme, themeOverrides);
+
 
   const styles = `
     <style>
@@ -206,7 +221,7 @@ const CardTemplates = (
       </g>
     </svg>
   `;
-  
+
   const pullRequestsTemplate = `
     <svg x="30" y="150">
       <g class="item" style="animation-delay: 1000ms" transform="translate(3, 2)">
@@ -242,7 +257,7 @@ const CardTemplates = (
       </g>
     </svg>
   `;
-  
+
   const remarksTemplate = `
     <svg x="-6" y="224">
       <g class="item" style="animation-delay: 1600ms" transform="translate(25, 15)">
