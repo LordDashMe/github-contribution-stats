@@ -12,7 +12,7 @@ const { CardTemplates } = require('./CardTemplates');
 const { ContributionRatings } = require('./ContributionRatings');
 const { ComputeContributions } = require('./ComputeContributions');
 
-const ContributionController = async (username, isStargazer) => {
+const ContributionController = async (username, isStargazer, theme, themeOverrides) => {
 
   const stats = await FetchStats(username);
 
@@ -38,7 +38,9 @@ const ContributionController = async (username, isStargazer) => {
     computedContribution.thisWeek, 
     computedContribution.pullRequests, 
     computedContribution.issues, 
-    computedContribution.codeReviews
+    computedContribution.codeReviews,
+    theme,
+    themeOverrides,
   );
 
 };

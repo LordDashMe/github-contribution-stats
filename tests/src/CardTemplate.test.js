@@ -67,4 +67,65 @@ describe('Tests for Card Templates.', () => {
 
   });
 
+  it('should prepare card templates for dark theme.', () => {
+    document.body.innerHTML = CardTemplates(
+      false,
+      stats.ratingsLetterSign,
+      stats.ratingsTranslation,
+      stats.ratingsColor,
+      stats.ratingsProgress,
+      stats.thisYearCommits,
+      stats.thisMonthCommits,
+      stats.thisWeekCommits,
+      stats.pullRequests,
+      stats.issues,
+      stats.codeReviews,
+      'dark'
+    );
+
+    expect(document.body.getElementsByTagName('svg')[0].getAttribute('style')).not.toBeNull();
+    expect(document.getElementsByTagName('rect')[0].getAttribute('fill')).toBe('#343846');
+    expect(document.getElementsByTagName('rect')[0].getAttribute('stroke')).toBe('#171616');
+  });
+
+  it('should prepare card templates with overrides.', () => {
+    const backgroundFill = '#dfdfdf';
+    const backgroundStroke = '#fafafaf';
+    const titleColor = '#efefef';
+    const statsColor = '#afafafaf';
+    const ratingsColor = '#cdcdcc';
+    const iconColor = '#dddddd';
+
+    document.body.innerHTML = CardTemplates(
+      false,
+      stats.ratingsLetterSign,
+      stats.ratingsTranslation,
+      stats.ratingsColor,
+      stats.ratingsProgress,
+      stats.thisYearCommits,
+      stats.thisMonthCommits,
+      stats.thisWeekCommits,
+      stats.pullRequests,
+      stats.issues,
+      stats.codeReviews,
+      'dark',
+      {
+        background: {
+          fill: backgroundFill,
+          stroke: backgroundStroke
+        },
+        title: titleColor,
+        stats: statsColor,
+        rating: ratingsColor,
+        icons: iconColor,
+      }
+    );
+
+    expect(document.body.innerHTML).toContain(backgroundFill);
+    expect(document.body.innerHTML).toContain(backgroundStroke);
+    expect(document.body.innerHTML).toContain(titleColor);
+    expect(document.body.innerHTML).toContain(statsColor);
+    expect(document.body.innerHTML).toContain(ratingsColor);
+    expect(document.body.innerHTML).toContain(iconColor);
+  });
 });
