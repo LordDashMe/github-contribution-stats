@@ -22,7 +22,7 @@
     "jest": "^26.1.0"
   },
   "dependencies": {
-    "axios": "^0.21.2",
-    "dotenv": "^8.2.0"
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5"
   }
 }
