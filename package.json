@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/LordDashMe/github-contribution-stats#readme",
   "devDependencies": {
-    "axios-mock-adapter": "^1.18.2",
-    "jest": "^26.1.0"
+    "axios-mock-adapter": "^1.22.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
   },
   "dependencies": {
     "axios": "^1.6.8",
