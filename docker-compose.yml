@@ -1,12 +1,14 @@
-version: '3.4'
+version: '3.9'
 services:
   app:
+    container_name: 'github-contribution-stats-app'
     tty: true
     stdin_open: true
-    image: 'node:10-alpine'
+    image: 'node:20-alpine'
     volumes:
-      - '.:/var/www/site/'
+      - '.:/app/'
+    networks:
+      - default
 networks:
   default:
-    external:
-      name: '${DOCKER_HOST_PRE_DEFINED_NETWORK}'
+    name: 'github-contribution-stats_network'
