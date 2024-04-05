@@ -9,5 +9,6 @@ module.exports = {
     "src/*",
     "!**/node_modules/**",
   ],
-  "coverageDirectory": "jest-coverage"
+  "coverageDirectory": "jest-coverage",
+  "testEnvironment": "jsdom"
 };
