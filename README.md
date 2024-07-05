@@ -68,8 +68,10 @@ You probably notice that the generated template has a comment or message below t
 This project only needs a **star** :star: from you! :heart: If you ever enjoyed this project, share it with your friends who are also active on github :handshake:.
 
 ## Special Mention :smile: :tada:
-
-For those who are currently using it right now with their Github README profile:
+<details>
+  <summary>
+    For those who are currently using it right now with their Github README profile:
+  </summary>
   
   - [gamersforever1695](https://github.com/gamersforever1695)
   
@@ -260,6 +262,8 @@ For those who are currently using it right now with their Github README profile:
   - [Web-learning](https://github.com/Web-learning)
 
   - [Sprocketer](https://github.com/Sprocketer)
+
+</details>
 
   - And you! If you are using it right now and you are not on the list, please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues). We are delighted to include you on the list as well.
 
