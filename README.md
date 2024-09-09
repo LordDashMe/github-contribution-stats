@@ -263,6 +263,8 @@ For those who are currently using it right now with their Github README profile:
 
   - [MalekMansour](https://github.com/MalekMansour)
 
+  - [suhaanigurjar](https://github.com/suhaanigurjar)
+
   - And you! If you are using it right now and you are not on the list, please tell us by sending an issue [Github Contribution Stats Issues](https://github.com/LordDashMe/github-contribution-stats/issues). We are delighted to include you on the list as well.
 
 ## License
