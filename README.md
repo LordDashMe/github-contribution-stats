@@ -76,66 +76,24 @@ For those who are currently using it right now with their Github README profile:
   - [kpace622](https://github.com/kpace622)
 
   - [Ankcorn](https://github.com/Ankcorn)
-
-  - [henriquehbr](https://github.com/henriquehbr)
-
-  - [imvieira](https://github.com/imvieira)
   
   - [Ahmad-Sawalqeh](https://github.com/Ahmad-Sawalqeh)
   
   - [KasperZutterman](https://github.com/KasperZutterman)
   
-  - [Bruck1701](https://github.com/Bruck1701)
-  
-  - [westscz](https://github.com/westscz)
-  
-  - [Abhay2611](https://github.com/Abhay2611)
-  
-  - [tiarebalbi](https://github.com/tiarebalbi)
-  
-  - [Thiago18l](https://github.com/Thiago18l)
-  
-  - [AlexandreMT](https://github.com/AlexandreMT)
-  
-  - [kliyanto23](https://github.com/kliyanto23)
-  
-  - [tanmayc07](https://github.com/tanmayc07)
-  
   - [mcarbenay](https://github.com/mcarbenay)
   
   - [sahilambre](https://github.com/sahilambre)
   
-  - [Ngugisenior](https://github.com/Ngugisenior)
-  
-  - [Keanin-Cupido](https://github.com/Keanin-Cupido)
-  
   - [viikkkas](https://github.com/viikkkas)
-  
-  - [TanishShinde](https://github.com/TanishShinde)
-  
-  - [AdityaGupta150](https://github.com/AdityaGupta150)
-  
-  - [minmyatoo](https://github.com/minmyatoo)
-  
-  - [Jalkhov](https://github.com/Jalkhov)
-  
-  - [PresentKim](https://github.com/PresentKim)
   
   - [graham22](https://github.com/graham22)
   
-  - [DamianSkrzypczak](https://github.com/DamianSkrzypczak)
-  
   - [adailsonaguiar](https://github.com/adailsonaguiar)
-  
-  - [niilasoikarainen](https://github.com/niilasoikarainen)
   
   - [Fliw](https://github.com/Fliw)
   
   - [zwerg4](https://github.com/zwerg4)
-  
-  - [onokatio](https://github.com/onokatio)
-  
-  - [Hubza](https://github.com/Hubza)
   
   - [thiagokimo](https://github.com/thiagokimo)
   
@@ -157,25 +115,13 @@ For those who are currently using it right now with their Github README profile:
 
   - [Cyranium](https://github.com/Cyranium)
 
-  - [3ncrypt3db0t](https://github.com/3ncrypt3db0t)
-
   - [amritesh19](https://github.com/amritesh19)
 
-  - [SankhaChak](https://github.com/SankhaChak)
-
   - [john1147](https://github.com/john1147)
-
-  - [EnderDev](https://github.com/EnderDev)
-
-  - [adel-sbeh](https://github.com/adel-sbeh)
 
   - [PasinduChanusha](https://github.com/PasinduChanusha)
 
   - [dumidu1998](https://github.com/dumidu1998)
-
-  - [renol767](https://github.com/renol767)
-
-  - [whoisbaby](https://github.com/whoisbaby)
 
   - [tkohli](https://github.com/tkohli)
 
@@ -183,41 +129,23 @@ For those who are currently using it right now with their Github README profile:
 
   - [ericwidhiantara](https://github.com/ericwidhiantara)
 
-  - [avosa](https://github.com/avosa)
-
   - [mulekick](https://github.com/mulekick)
-
-  - [bolinocroustibat](https://github.com/bolinocroustibat)
 
   - [compsecmonkey](https://github.com/compsecmonkey)
 
   - [aaron-lane](https://github.com/aaron-lane)
 
-  - [malsabbagh](https://github.com/malsabbagh)
-
   - [FlashBlack](https://github.com/FlashBlack)
-
-  - [EmilienLeroy](https://github.com/EmilienLeroy)
-
-  - [Starcly56](https://github.com/Starcly56)
 
   - [PRigas96](https://github.com/PRigas96)
 
-  - [dexter93](https://github.com/dexter93)
-
-  - [lerichardson](https://github.com/lerichardson)
-
   - [PrabalChowdhury](https://github.com/PrabalChowdhury)
-
-  - [erickahmed](https://github.com/erickahmed)
 
   - [Minionguyjpro](https://github.com/Minionguyjpro)
 
   - [ejaz4](https://github.com/ejaz4)
 
   - [rubengmurray](https://github.com/rubengmurray)
-
-  - [Timguru](https://github.com/Timguru)
 
   - [monfadev](https://github.com/monfadev)
 
@@ -235,27 +163,15 @@ For those who are currently using it right now with their Github README profile:
 
   - [bdaler](https://github.com/bdaler)
 
-  - [doanryo](https://github.com/doanryo)
-
   - [warstrolo](https://github.com/warstrolo)
 
-  - [kvaps](https://github.com/kvaps)
-
-  - [Nayananga](https://github.com/Nayananga)
-
-  - [Elod044](https://github.com/Elod044)
-  
   - [zk497](https://github.com/zk497)
   
   - [Tukhtamurodov-Sardorbek](https://github.com/Tukhtamurodov-Sardorbek)
 
   - [ajtudela](https://github.com/ajtudela)
 
-  - [Kingssxd](https://github.com/Kingssxd)
-  
   - [sunpech](https://github.com/sunpech)
-  
-  - [Albx68](https://github.com/Albx68)
 
   - [Web-learning](https://github.com/Web-learning)
 
