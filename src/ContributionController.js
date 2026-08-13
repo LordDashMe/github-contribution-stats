@@ -16,8 +16,16 @@ const ContributionController = async (username, isStargazer) => {
 
   const stats = await FetchStats(username);
 
+  // A failed request resolves to an empty object, reaching into it blindly
+  // throws a TypeError that reads nothing like the actual cause. The common
+  // reasons are an expired access token, an exhausted rate limit or a
+  // username that does not exist.
+  if (!stats || !stats.data || !stats.data.user) {
+    throw new Error(`Unable to fetch the Github stats for the username "${username}".`);
+  }
+
   const computedContribution = ComputeContributions(stats.data.user.contributionsCollection);
-  
+
   ContributionRatings.newInstance();
   ContributionRatings.setThisYearCommits(computedContribution.thisYear);
   ContributionRatings.setThisMonthCommits(computedContribution.thisMonth);
@@ -27,8 +35,12 @@ const ContributionController = async (username, isStargazer) => {
   ContributionRatings.setCodeReviews(computedContribution.codeReviews);
   ContributionRatings.calculate();
 
+  // Accepts either a plain boolean or the still pending lookup started by the
+  // caller, awaiting a non promise value resolves to the value itself.
+  const stargazer = await isStargazer;
+
   return CardTemplates(
-    isStargazer,
+    stargazer,
     ContributionRatings.getLetterSign(),
     ContributionRatings.getTranslation(),
     ContributionRatings.getColor(), 
