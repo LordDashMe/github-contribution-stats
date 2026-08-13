@@ -2,3 +2,4 @@
 node_modules/
 jest-cache/
 jest-coverage/
+package-lock.json
