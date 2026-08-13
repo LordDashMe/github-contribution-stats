@@ -131,4 +131,27 @@ describe('Tests for Contribution Controller.', () => {
 
   });
 
+  it('should throw a readable error when the stats request fails.', async () => {
+
+    // An expired token or an exhausted rate limit resolves to an empty object,
+    // the controller has to name the cause instead of dereferencing into it.
+    mockAxios.onPost('https://api.github.com/graphql').reply(401, {});
+
+    await expect(ContributionController('LordDashMe')).rejects.toThrow(
+      'Unable to fetch the Github stats for the username "LordDashMe".'
+    );
+
+  });
+
+  it('should accept a pending stargazer lookup as well as a plain boolean.', async () => {
+
+    mockAxios.onPost('https://api.github.com/graphql').reply(200, mockGithubGrapQLResponse);
+
+    const fromPromise = await ContributionController('LordDashMe', Promise.resolve(true));
+    const fromBoolean = await ContributionController('LordDashMe', true);
+
+    expect(fromPromise).toBe(fromBoolean);
+
+  });
+
 });
