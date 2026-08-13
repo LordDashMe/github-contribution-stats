@@ -1,11 +1,8 @@
 <h1 align="center">Github Contribution Stats</h1>
 <p align="center">Get your dynamically generated Github Contribution Stats! :chart_with_upwards_trend: :calendar:</p>
 <p align="center">
-  <a href="https://travis-ci.org/LordDashMe/github-contribution-stats">
-    <img src="https://img.shields.io/travis/com/LordDashMe/github-contribution-stats?style=for-the-badge" />
-  </a>
-  <a href="https://coveralls.io/github/LordDashMe/github-contribution-stats?branch=master">
-    <img src="https://img.shields.io/coveralls/github/LordDashMe/github-contribution-stats?style=for-the-badge" />
+  <a href="https://github.com/LordDashMe/github-contribution-stats/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/LordDashMe/github-contribution-stats/ci.yml?branch=master&style=for-the-badge" />
   </a>
 </p>
 <p align="center">
