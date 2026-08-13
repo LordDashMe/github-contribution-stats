@@ -4,6 +4,9 @@
   <a href="https://github.com/LordDashMe/github-contribution-stats/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/LordDashMe/github-contribution-stats/ci.yml?branch=master&style=for-the-badge" />
   </a>
+  <a href="https://coveralls.io/github/LordDashMe/github-contribution-stats?branch=master">
+    <img src="https://img.shields.io/coverallsCoverage/github/LordDashMe/github-contribution-stats?branch=master&style=for-the-badge" />
+  </a>
 </p>
 <p align="center">
   <img src="https://github.githubassets.com/images/mona-whisper.gif" /> A treasure! :sparkles:
