@@ -34,7 +34,7 @@ Simply copy and paste this into your markdown content, replacing the value of th
 
 ## Purpose
 
-Actually, if you don't know, Github released a feature called [Github README profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme) (they call it a Secret Repository :smile:) and I think this project will help you to give additional content for your Github README profile.
+If you don't know, GitHub features a custom profile section called the [GitHub Profile README](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme). When it first dropped as an Easter egg back in 2020, GitHub literally called it a 'Secret Repository' in their UI popup! 🤫 Though it's a standard feature today, this project is here to help you generate eye-catching content to make your profile stand out.
 
 <p align="center"><img width="80" height="80" src="https://github.githubassets.com/images/mona-loading-default.gif" alt="mona loading default" /></p>
 
